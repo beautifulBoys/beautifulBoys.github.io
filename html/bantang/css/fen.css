@@ -1,0 +1,315 @@
+﻿@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	background:#ececec;
+}
+a {
+	text-decoration:none;
+}
+.zong {
+	max-width:640px;
+	min-width:360px;
+	margin:0 auto;
+}
+.header {
+	width:100%;
+	max-width:640px;
+	min-width:360px;
+	height:55px;
+	position:fixed;
+	top:0;
+	z-index:200;
+}
+.header .box{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.header .box .beijing {
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	background:#ec5252;
+	line-height:55px;
+	opacity:0;
+	color:#fff;
+	font-size:19px;
+	text-align:center;
+	background-size:75px;
+}
+.header .box .gong {
+	width:100%;
+	height:100%;
+	z-index:100;
+	position:relative;
+}
+.header .gong .zuo {
+	float:left;
+	width:40px;
+	height:40px;
+	position:absolute;
+	top:7px;
+	left:10px;
+	background:url(../images1/header1.png) no-repeat center center;
+	background-size:36px;
+}
+.header .gong .you {
+	width:90px;
+	height:40px;
+	display:block;
+	float:right;
+	position:absolute;
+	top:7px;
+	right:10px;
+}
+.header .gong .you .you1 {
+	width:40px;
+	height:40px;
+	float:left;
+	display:block;
+	background:url(../images1/header2.png) no-repeat center center;
+	background-size:32px;
+}
+.header .gong .you .you2 {
+	width:40px;
+	height:40px;
+	float:right;
+	display:block;
+	background:url(../images1/header3.png) no-repeat center center;
+	background-size:32px;
+}
+.banner {
+	width:100%;
+	background:#fff;
+}
+.banner img {
+	width:100%;
+}
+.banner .tip .title {
+	font-size:16px;
+	color:#444;
+	text-indent:3%;
+	display:block;
+	width:100%;
+	line-height:36px;
+}
+.banner .tip p {
+	width:94%;
+	padding:0 3% 2% 3%;
+	margin:0;
+	font-size:14px;
+	color:#666;
+	line-height:20px;
+}
+.menu {
+	height:40px;
+	width:100%;
+	display:block;
+	background:#fff;
+	color:#555;
+}
+.menu .zuo {
+	width:50%;
+	float:left;
+	line-height:39px;
+	display:block;
+	cursor:pointer;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+}
+.menu .you {
+	width:50%;
+	float:right;
+	line-height:39px;
+	display:block;
+	cursor:pointer;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+}
+.menu .xian {
+	border-bottom:3px solid #fd6363;
+	line-height:37px;
+	color:#fd6363;
+}
+.fix {
+	position:fixed;
+	top:55px;
+	max-width:640px;
+	width:100%;
+}
+.main {
+	width:100%;
+	display:block;
+}
+.danpin {
+	background:#fff;
+	margin:0 0 12px 0;
+}
+.danpin .title {
+	width:100%;
+	height:50px;
+	display:block;
+}
+.danpin .title .tu {
+	width:12%;
+	height:50px;
+	float:left;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	font-size:13px;
+	background:url(../images1/tip.png) no-repeat center center;
+	background-size:45px;
+}
+.danpin .title .title1 {
+	width:88%;
+	height:50px;
+	display:block;
+	font-size:16px;
+	float:right;
+	line-height:50px;
+	color:#444;
+}
+.danpin .descript {
+	font-size:14px;
+	padding:0 3% 3% 3%;
+	display:block;
+	width:94%;
+	color:#666;
+	line-height:20px;
+}
+.danpin img {
+	width:94%;
+	display:block;
+	margin:0 auto;
+}
+.danpin .price {
+	width:94%;
+	display:block;
+	font-size:16px;
+	color:#fd6363;
+	text-align:right;
+	line-height:50px;
+	padding:0 3%;
+	border-bottom:1px solid #ececec;
+}
+.danpin .user {
+	width:94%;
+	height:80px;
+	padding:0 3%;
+	display:block;
+	border-bottom:1px solid #ececec;
+}
+.danpin .user .xihuan {
+	width:100%;
+	font-size:13px;
+	line-height:25px;
+	height:25px;
+	color:#666;
+}
+.danpin .user .main1 {
+	width:100%;
+	height:55px;
+	display:block;
+}
+.danpin .user .main1 img {
+	height:34px;
+	width:34px;
+	border-radius:17px;
+	float:left;
+	margin:10px 5px;
+}
+.danpin .gong {
+	width:100%;
+	height:50px;
+}
+.danpin .gong .neng1,.danpin .gong .neng2,.danpin .gong .neng3 {
+	width:33%;
+	height:100%;
+	display:block;
+	float:left;
+	text-indent:15%;
+	font-size:16px;
+	line-height:50px;
+	cursor:pointer;
+	color:#666;
+}
+.danpin .gong .neng1 {
+	background:url(../images1/gong1.png) no-repeat 20% center;
+	background-size:45px;
+}
+.danpin .gong .neng2 {
+	background:url(../images1/gong2.png) no-repeat 20% center;
+	background-size:45px;
+}
+.danpin .gong .neng3 {
+	background:url(../images1/gong3.png) no-repeat 20% center;
+	background-size:45px;
+}
+
+
+
+.zong .fenxiang {
+	width:100%;
+	max-width:640px;
+	min-width:360px;
+	background:#fff;
+	position:fixed;
+	top:200px;
+	left:0;
+	z-index:2000;
+}
+
+.zong .fenxiang .fenxiang2 {
+	width:80%;
+	display:block;
+	margin:0 auto;
+}
+.screen {
+	width:0;
+	height:0;
+	display:none;
+	background:#000;
+	opacity:0;
+	z-index:1000;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

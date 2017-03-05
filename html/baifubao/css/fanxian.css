@@ -1,0 +1,207 @@
+﻿@charset "utf-8";
+
+a {
+	text-decoration:none;
+	font-size:18px;
+	color:#333;
+}
+li {
+	list-style-type:none;
+}
+
+div,ul,table,span,a,h1,h2,h3,h4,h5,h6,h7,h8 {
+	font-family:"微软雅黑";
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#efeff4;         /*灰色*/
+}
+#zong {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+}
+#header {
+	height:60px;
+	background:#e94346;
+	text-align:center;
+	line-height:60px;
+	font-size:22px;
+	color:#fff;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+#header .fanhui {
+	float:left;
+}
+#header span {
+	font-size:24px;
+	line-height:60px;
+	margin:0 auto;
+	background:blue;
+}
+#header .fanhui a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	height:60px;
+	display:block;
+	line-height:60px;
+	text-align:center;
+	background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#header .fanhui a:hover {
+	background:#df3133 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+
+#yuefen {
+	margin:60px 0 0 0;
+	height:30px;
+	width:100%;
+	color:#333;
+	border-bottom:1px solid #eee;
+	background:#efeff4;
+	max-width:640px;
+	min-width:320px;
+	position:fixed;
+	top:0;
+	z-index:9998;
+}
+#yuefen a {
+	display:block;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-indent:20px;
+	font-size:15px;
+	background:url(../images/xinxi/jinru.png) no-repeat 98% center;
+}
+#yuefen a:hover {
+	background:#e3fffd url(../images/xinxi/jinru.png) no-repeat 98% center;
+}
+#yuefen span {
+	float:right;
+	margin:0 25px 0 0;
+}
+
+#zong .zhanwei {
+	width:100%;
+	height:90px;
+	text-indent:-9999px;
+}
+#zong .jilu {
+	position:relative;
+	border-top:1px solid #eee;
+}
+#zong .jilu a {
+	width:100%;
+	height:70px;
+	display:block;
+	font-size:18px;
+	background:#fff;
+}
+#zong .jilu a img {
+	width:45px;
+	margin:13px 0 0 7%;
+}
+#zong .jilu .jine {
+	position:absolute;
+	top:10px;
+	left:23%;
+	color:#e94346;
+	font-size:22px;
+}
+#zong .jilu .jine1 {
+	position:absolute;
+	top:10px;
+	left:23%;
+	color:#005bc9;
+	font-size:22px;
+}
+#zong .jilu .laiyuan {
+	position:absolute;
+	top:42px;
+	left:25%;
+	color:#888;
+	font-size:14px;
+}
+#zong .jilu .riqi {
+	position:absolute;
+	top:25px;
+	right:7%;
+	color:#333;
+	font-size:18px;
+}
+
+#yuefen1 {
+	height:30px;
+	width:100%;
+	color:#333;
+	border-top:1px solid #eee;
+	background:#efeff4;
+}
+#yuefen1 a {
+	display:block;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-indent:20px;
+	font-size:15px;
+	background:url(../images/xinxi/jinru.png) no-repeat 98% center;
+}
+#yuefen1 a:hover {
+	background:#e3fffd url(../images/xinxi/jinru.png) no-repeat 98% center;
+}
+#yuefen1 span {
+	float:right;
+	margin:0 25px 0 0;
+}
+#zong .di {
+	width:100%;
+	height:60px;
+	font-size:14px;
+	color:#aaa;
+	line-height:60px;
+	text-align:center;
+}
+
+#shuoming {
+	width:100%;
+	max-width:640px;
+	min-width:320px;
+	position:fixed;
+	top:80%;
+	display:none;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}
+#shuoming .shuoming {
+	display:block;
+	width:50%;
+	text-align:center;
+	margin:0 auto;
+	font-size:14px;
+	line-height:25px;
+	border-radius:3px;
+	color:#fff;
+	background:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+

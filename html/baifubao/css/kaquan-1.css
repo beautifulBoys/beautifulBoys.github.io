@@ -1,0 +1,235 @@
+﻿@charset "utf-8";
+
+a {
+	text-decoration:none;
+	font-size:18px;
+	color:#333;
+}
+li {
+	list-style-type:decimal;
+}
+
+div,ul,table,span,a,h1,h2,h3,h4,h5,h6,h7,h8 {
+	font-family:"微软雅黑";
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#efeff4;         /*灰色*/
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+#zong {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+}
+#header {
+	background:#ef9e17;
+	text-align:center;
+	line-height:60px;
+	font-size:22px;
+	color:#fff;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+#header .fanhui {
+	float:left;
+}
+#header .fanhui a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	display:block;
+	line-height:60px;
+	text-align:center;
+	background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#header .fanhui a:hover {
+	background:#e09415 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+
+#bg1 {
+	width:100%;
+	position:fixed;
+	top:60px;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	display:block;
+	z-index:-1;
+	background:#ef9e17;
+}
+#bg2 {
+	width:100%;
+	position:fixed;
+	bottom:0;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	display:block;
+	z-index:6;
+}
+
+#neirong {
+	width:90%;
+	height:400px;
+	display:block;
+	margin:69% auto 15% auto;
+}
+#neirong .nei1 {
+	background:url(../images/kaquan/4-4.png) repeat-x;
+	width:100%;
+	height:5px;
+}
+#neirong .nei2 {
+	background:#fff;
+	width:100%;
+	font-size:14px;
+}
+#neirong .nei2 .head {
+	height:100px;
+	width:100%;
+	border-bottom:2px dashed #d13d4b;
+	position:relative;
+}
+#neirong .nei2 .head img {
+	width:60px;
+	display:block;
+	position:absolute;
+	top:10px;
+	left:6%;
+}
+#neirong .nei2 .head .name {
+	font-size:14px;
+	width:60px;
+	color:#777;
+	position:absolute;
+	top:75px;
+	left:6%;
+}
+#neirong .nei2 .head .title {
+	font-size:22px;
+	color:#a80212;
+	position:absolute;
+	top:20px;
+	left:21%;
+}
+#neirong .nei2 .head .youxiaoqi {
+	font-size:14px;
+	color:#777;
+	position:absolute;
+	top:75px;
+	left:23%;
+}
+#neirong .nei2 .shiyong a {
+	font-size:14px;
+	color:#ffc600;
+	background:#d13d4b;
+	width:60%;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	margin:0 auto;
+	display:block;
+	border-radius:4px;
+}
+#neirong .nei2 .shiyong a:hover {
+	background:#cc2c3b;
+}
+#neirong .nei2 .shiyong {
+	margin:60px 0;
+}
+#neirong .nei2 span {
+	width:100%;
+	display:block;
+	font-size:16px;
+	text-align:center;
+}
+#neirong .nei2 ul {
+	width:80%;
+	margin:20px 10px 0 0;
+}
+#neirong .nei2 ul li {
+	line-height:22px;
+	color:#666;
+	margin:6px 0;
+}
+
+
+@media (max-width:370px) {
+	#header {
+		background:#ef9e17;
+		text-align:center;
+		line-height:50px;
+		font-size:20px;
+		color:#fff;
+		margin:0 auto;
+		max-width:640px;
+		min-width:320px;
+		width:100%;
+		position:fixed;
+		top:0;
+		z-index:9999;
+	}
+	#bg1 {
+		width:100%;
+		position:fixed;
+		top:50px;
+		margin:0 auto;
+		max-width:640px;
+		min-width:320px;
+		width:100%;
+		display:block;
+		z-index:-1;
+		background:#ef9e17;
+	}
+	#header .fanhui a {
+		font-size:18px;
+		color:#fff;
+		width:100px;
+		display:block;
+		line-height:50px;
+		text-align:center;
+		background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+	}
+	#header .fanhui a:hover {
+		background:#e09415 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+	}
+	#neirong {
+		width:90%;
+		height:400px;
+		display:block;
+		margin:70% auto 15% auto;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

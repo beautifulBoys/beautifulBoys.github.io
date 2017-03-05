@@ -1,0 +1,175 @@
+﻿@charset "utf-8";
+
+a {
+	text-decoration:none;
+	font-size:18px;
+	color:#333;
+}
+li {
+	list-style-type:none;
+}
+
+div,ul,table,span,a,h1,h2,h3,h4,h5,h6,h7,h8 {
+	font-family:"微软雅黑";
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#efeff4;         /*灰色*/
+}
+#zong {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+}
+#header {
+	height:60px;
+	background:#e94346;
+	text-align:center;
+	line-height:60px;
+	font-size:22px;
+	color:#fff;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+#header .fanhui {
+	float:left;
+}
+#header span {
+	font-size:24px;
+	line-height:60px;
+	margin:0 auto;
+	background:blue;
+}
+#header .fanhui a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	height:60px;
+	display:block;
+	line-height:60px;
+	text-align:center;
+	background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#header .fanhui a:hover {
+	background:#df3133 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#zong .zhanwei {
+	width:100%;
+	height:60px;
+	text-indent:-9999px;
+}
+#zong .ka,#zong .quan,#zong .bu {
+	width:94%;
+	height:120px;
+	margin:10px auto 0 auto;
+	border-radius:8px;
+	position:relative;
+	border:1px solid #dde;
+}
+#zong .ka:hover,#zong .quan:hover,#zong .bu:hover {
+	border:1px solid #f2e400;
+}
+#zong .ka {
+	background:#fff url(../images/kaquan/1.png) repeat-x 0 -25px;
+}
+#zong .quan {
+	background:#fff url(../images/kaquan/2.png) repeat-x 0 -25px;
+}
+#zong .bu {
+	background:#fff url(../images/kaquan/3.png) repeat-x 0 -25px;
+}
+#zong .ka:hover {
+	background:#ffafafa url(../images/kaquan/1.png) repeat-x 0 -25px;
+}
+#zong .quan:hover {
+	background:#fafafa url(../images/kaquan/2.png) repeat-x 0 -25px;
+}
+#zong .bu:hover {
+	background:#ffafafa url(../images/kaquan/3.png) repeat-x 0 -25px;
+}
+#zong img {
+	width:45px;
+	margin:15px 6%;
+}
+#zong a .name {
+	position:absolute;
+	top:26px;
+	left:24%;
+}
+#zong a {
+	display:block;
+	width:100%;
+	height:120px;
+	color:#fff;
+	font-size:17px;
+}
+#zong a .jiage {
+	position:absolute;
+	top:20px;
+	left:70%;
+	color:#fff000;
+	font-weight:bold;
+	font-size:26px;
+}
+#zong a .gongsi {
+	position:absolute;
+	top:90px;
+	left:5%;
+	color:#333;
+	font-size:13px;
+}
+#zong a .youxiaoqi {
+	position:absolute;
+	top:90px;
+	right:5%;
+	color:#333;
+	font-size:13px;
+}
+
+#zong .di {
+	width:100%;
+	height:60px;
+	font-size:14px;
+	color:#aaa;
+	line-height:60px;
+	text-align:center;
+}
+
+#shuoming {
+	width:100%;
+	max-width:640px;
+	min-width:320px;
+	position:fixed;
+	top:80%;
+	display:none;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}
+#shuoming .shuoming {
+	display:block;
+	width:50%;
+	text-align:center;
+	margin:0 auto;
+	font-size:14px;
+	line-height:25px;
+	border-radius:3px;
+	color:#fff;
+	background:#000;
+}
+
+
+
+
+
+
+
+
+
+

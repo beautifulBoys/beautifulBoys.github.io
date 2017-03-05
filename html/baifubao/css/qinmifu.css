@@ -1,0 +1,190 @@
+﻿@charset "utf-8";
+
+a {
+	text-decoration:none;
+	font-size:18px;
+	color:#333;
+}
+li {
+	list-style-type:none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
+div,ul,table,span,a,h1,h2,h3,h4,h5,h6,h7,h8 {
+	font-family:"微软雅黑";
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#efeff4;         /*灰色*/
+}
+#zong {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+}
+#header {
+	background:#e94346;
+	line-height:60px;
+	font-size:22px;
+	text-indent:12px;
+	color:#fff;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+#header .fanhui {
+	float:left;
+}
+#header .gonglue {
+	float:right;
+}
+#header .gonglue a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	display:block;
+	text-indent:0;
+	line-height:60px;
+	text-align:center;
+}
+#header .gonglue a:hover {
+	background:#df3133;
+}
+#header .fanhui a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	display:block;
+	text-indent:0;
+	line-height:60px;
+	text-align:center;
+	background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#header .fanhui a:hover {
+	background:#df3133 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#zong .shang {
+	padding:110px 0 60px 0;
+	background:#ed6170;
+}
+#zong .xia {
+	width:100%;
+}
+#zong .xia span {
+	width:100%;
+	display:block;
+	text-align:center;
+	font-size:20px;
+	margin:15px 0 5px 0;
+	color:#999;
+}
+#zong .xia .zuo {
+	float:left;
+}
+#zong .xia .you {
+	float:right;
+}
+#zong .xia .zuo,#zong .xia .you {
+	width:50%;
+	display:block;
+}
+#zong .xia .zuo a,#zong .xia .you a {
+	width:82%;
+	display:block;
+	margin:40px auto;
+	line-height:50px;
+	text-align:center;
+	font-size:22px;
+	border-radius:30px;
+	background:red;
+	
+}
+#zong .xia .zuo a {
+	background:#ed6271;
+	color:#fff;
+	border:1px solid #ed6271;
+}
+#zong .xia .you a {
+	background:#fff;
+	color:#ed6271;
+	border:1px solid #ed6271;
+}
+
+@media (max-width:370px) {
+	
+	#header {
+		height:50px;
+		background:#e94346;
+		line-height:50px;
+		font-size:20px;
+		text-indent:12px;
+		color:#fff;
+		margin:0 auto;
+		max-width:640px;
+		min-width:320px;
+		width:100%;
+		position:fixed;
+		top:0;
+		z-index:9999;
+	}
+	#header .gonglue a {
+		font-size:16px;
+		color:#fff;
+		width:100px;
+		height:50px;
+		display:block;
+		text-indent:0;
+		line-height:50px;
+		text-align:center;
+	}
+	#header .fanhui a {
+		font-size:16px;
+		color:#fff;
+		width:100px;
+		display:block;
+		text-indent:0;
+		line-height:50px;
+		text-align:center;
+		background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+	}
+	#zong .xia .zuo a,#zong .xia .you a {
+		width:80%;
+		display:block;
+		margin:0 auto;
+		line-height:35px;
+		text-align:center;
+		font-size:18px;
+		border-radius:30px;
+	}
+	#zong .shang {
+		padding:85px 0 35px 0;
+		background:#ed6170;
+	}
+	#zong .xia span {
+		width:100%;
+		display:block;
+		text-align:center;
+		font-size:15px;
+		margin:10px 0 25px 0;
+		color:#555;
+	}
+}
+
+
+
+
+
+
+
+

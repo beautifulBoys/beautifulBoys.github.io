@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+#content {
+	margin:0 auto;
+	width:1365px;
+	height:100%;
+	background:#fff;
+	overfloat:hidden;
+}
+#mainzong1 {
+	width:960px;
+	height:1150px;
+	margin:20px auto;
+	background:#c9ffe0;
+	padding:40px 80px 0 80px;
+}
+#mainzong1 span {
+	font-size:14px;
+	text-align:center;
+	display:block;
+	margin:30px 0 0 0;
+	
+}
+#mainzong1 ul li {
+	margin:0 0 30px 0;
+}
+#mainzong1 ul .li1 {
+	list-style-type:none;
+	float:left;
+}
+#mainzong1 ul .li2{
+	list-style-type:none;
+	float:right;
+}
+#mainzong1 ul li a .square {
+	width:450px;
+	height:100px;
+	background:#fff;
+}
+#mainzong1 ul li a .square:hover {
+	background:#ffc;
+}
+#mainzong1 ul li a {
+	width:450px;
+	border:1px solid #ccc;
+	display:block;
+}
+#mainzong1 ul li a:hover {
+	border:1px solid #5867fc;
+}
+#mainzong1 ul li .square .picture {
+	width:130px;
+	height:100px;
+	float:left;
+}
+#mainzong1 ul li .square .picturetitle {
+	width:320px;
+	height:100px;
+	float:right;
+}
+#mainzong1 ul li .square .picturetitle h2 {
+	color:#000;
+	font-size:16px;
+	margin:10px 15px 8px 15px;
+	font-family: "Microsoft YaHei UI";
+	text-align:center;
+}
+#mainzong1 ul li .square .picturetitle p {
+	font-size:12px;
+	color:#999;
+	margin:8px 15px;
+	font-family: "Microsoft YaHei UI";
+}
+
+#mainzong1 ul li .square .picturetitle p.author {
+	text-align:right;
+}
+
+

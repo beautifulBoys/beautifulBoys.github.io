@@ -1,0 +1,237 @@
+﻿@charset "utf-8";
+
+a {
+	text-decoration:none;
+	font-size:18px;
+	color:#333;
+}
+li {
+	list-style-type:none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
+div,ul,table,span,a,h1,h2,h3,h4,h5,h6,h7,h8 {
+	font-family:"微软雅黑";
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#efeff4;         /*灰色*/
+}
+#zong {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+}
+#header {
+	height:60px;
+	background:#e94346;
+	text-align:center;
+	line-height:60px;
+	font-size:20px;
+	color:#fff;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+#header .fanhui {
+	float:left;
+}
+#header span {
+	font-size:24px;
+	line-height:60px;
+	margin:0 auto;
+	background:blue;
+}
+#header .fanhui a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	height:60px;
+	display:block;
+	line-height:60px;
+	text-align:center;
+	background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#header .fanhui a:hover {
+	background:#df3133 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#zong {
+	width:100%;
+	display:block;
+	height:300px;
+}
+#zong .tishi {
+	margin:60px 0 0 0;
+	display:block;
+	color:red;
+	line-height:60px;
+	text-indent:4%;
+	font-size:15px;
+}
+#zong .number {
+	width:100%;
+	height:90px;
+	background:#fff;
+	display:block;
+	position:relative;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#zong .number .num {
+	line-height:50px;
+	width:70%;
+	font-size:30px;
+	margin:5px 0 0 5%;
+	border:none;
+	color:#333;
+}
+#zong .number .guishudi {
+	font-size:14px;
+	margin:2px 0 0 6%;
+	color:#999;
+}
+#zong .number img {
+	width:27px;
+	display:block;
+	padding:8px;
+	position:absolute;
+	top:25px;
+	right:4%;
+}
+#jiage {
+	width:100%;
+	height:180px;
+}
+#jiage .jiage {
+	width:90%;
+	margin:20px auto 0 auto;
+	display:block;
+}
+#jiage .jiage span {
+	font-size:12px;
+}
+#jiage .jiage .a1 a,#jiage .jiage .a2 a,#jiage .jiage .a3 a,#jiage .jiage .a4 a,#jiage .jiage .a5 a,#jiage .jiage .a6 a,#jiage .jiage .a7 a,#jiage .jiage .a8 a,#jiage .jiage .a9 a {
+	width:28.4%;
+	margin:2%;
+	line-height:42px;
+	text-align:center;
+	display:block;
+	float:left;
+	font-size:22px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#jiage .jiage .a1 a:hover,#jiage .jiage .a2 a:hover,#jiage .jiage .a3 a:hover,#jiage .jiage .a4 a:hover,#jiage .jiage .a5 a:hover,#jiage .jiage .a6 a:hover,#jiage .jiage .a7 a:hover,#jiage .jiage .a8 a:hover,#jiage .jiage .a9 a:hover {
+	color:red;
+	border:1px solid red;
+}
+#chongzhi a {
+	width:80%;
+	display:block;
+	background:#e94346;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	font-size:20px;
+	margin:40px auto;
+	border-radius:4px;
+}
+
+
+@media (max-height:520px) {
+	#zong .tishi {
+		margin:60px 0 0 0;
+		display:block;
+		color:red;
+		line-height:40px;
+		text-indent:4%;
+		font-size:13px;
+	}
+	#zong .number {
+		width:100%;
+		height:70px;
+		background:#fff;
+		display:block;
+		position:relative;
+		border-top:1px solid #ddd;
+		border-bottom:1px solid #ddd;
+	}
+	#zong .number .num {
+		line-height:35px;
+		width:70%;
+		font-size:28px;
+		margin:5px 0 0 5%;
+		border:none;
+		color:#333;
+	}
+	#zong .number .guishudi {
+		font-size:12px;
+		margin:3px 0 0 6%;
+		color:#999;
+	}
+	
+	#zong .number img {
+		width:24px;
+		display:block;
+		padding:8px;
+		position:absolute;
+		top:15px;
+		right:4%;
+	}
+	#jiage {
+		width:100%;
+		height:170px;
+	}
+	#jiage .jiage {
+		width:90%;
+		margin:15px auto 0 auto;
+		display:block;
+	}
+	#jiage .jiage span {
+		font-size:12px;
+	}
+	#jiage .jiage .a1 a,#jiage .jiage .a2 a,#jiage .jiage .a3 a,#jiage .jiage .a4 a,#jiage .jiage .a5 a,#jiage .jiage .a6 a,#jiage .jiage .a7 a,#jiage .jiage .a8 a,#jiage .jiage .a9 a {
+		width:28.4%;
+		margin:2%;
+		line-height:36px;
+		text-align:center;
+		display:block;
+		float:left;
+		background:#fff;
+		border:1px solid #ccc;
+	}
+	#jiage .jiage .a1 a:hover,#jiage .jiage .a2 a:hover,#jiage .jiage .a3 a:hover,#jiage .jiage .a4 a:hover,#jiage .jiage .a5 a:hover,#jiage .jiage .a6 a:hover,#jiage .jiage .a7 a:hover,#jiage .jiage .a8 a:hover,#jiage .jiage .a9 a:hover {
+		color:red;
+		border:1px solid red;
+	}
+	#chongzhi a {
+		width:80%;
+		display:block;
+		background:#e94346;
+		text-align:center;
+		line-height:36px;
+		color:#fff;
+		font-size:15px;
+		margin:30px auto;
+		border-radius:4px;
+	}
+	
+}
+
+
+
+
+
+
+

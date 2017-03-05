@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+#content {
+	margin:0 auto;
+}
+#mainzong1 {
+	width:950px;
+	height:700px;
+	background:#c9ffe0;
+	margin:20px auto;
+	padding:50px;
+}
+#mainzong1 table {
+	width:800px;
+	margin:0 auto;
+}
+#mainzong1 table tr td a {
+	font-size:14px;
+	line-height:40px;
+	color:#000;
+	text-decoration:none;
+}
+#mainzong1 table tr td a:hover {
+	color:blue;
+	text-decoration:underline;
+}
+#mainzong1 table tr .title {
+	text-align:left;
+	text-indent:25px;
+	font-family: "Microsoft YaHei UI";
+	background:url(../images/images.png) -190px -137px no-repeat;
+}
+#mainzong1 table tr .title1 {
+	border-bottom:1px solid blue;
+	line-height:35px;
+	text-align:left;
+}
+#mainzong1 span {
+	font-size:14px;
+	text-align:center;
+	display:block;
+	margin:40px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+

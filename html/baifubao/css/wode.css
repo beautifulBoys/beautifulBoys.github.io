@@ -1,0 +1,354 @@
+﻿@charset "utf-8";
+
+a {
+	text-decoration:none;
+	font-size:18px;
+	color:#333;
+}
+li {
+	list-style-type:none;
+}
+
+div,ul,table,span,a,h1,h2,h3,h4,h5,h6,h7,h8 {
+	font-family:"微软雅黑";
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#efeff4;         /*灰色*/
+}
+#zong {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+}
+#header {
+	height:60px;
+	background:#e94346;
+	text-align:center;
+	line-height:60px;
+	font-size:22px;
+	color:#fff;
+	margin:0 auto;
+	max-width:640px;
+	min-width:320px;
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+#header .fanhui {
+	float:left;
+}
+#header span {
+	font-size:24px;
+	line-height:60px;
+	margin:0 auto;
+	background:blue;
+}
+#header .fanhui a {
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	height:60px;
+	display:block;
+	line-height:60px;
+	text-align:center;
+	background:url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#header .fanhui a:hover {
+	background:#df3133 url(../images/xinxi/fanhui.png) no-repeat 20% center;
+}
+#zong .zhanwei {
+	width:100%;
+	height:60px;
+	text-indent:-9999px;
+}
+#zong .xinxi {
+	width:100%;
+	height:145px;
+	background:#fff;
+	margin:15px 0 0 0;
+}
+#zong .xinxi .touxiang a {
+	width:100%;
+	height:100px;
+	display:block;
+	position:relative;
+	border-bottom:1px solid #fef;
+	background:url(../images/xinxi/jinru.png) no-repeat 97% center;
+}
+#zong .xinxi .touxiang a:hover {
+	background:#f8f8f8 url(../images/xinxi/jinru.png) no-repeat 97% center;
+}
+#zong .xinxi .touxiang .name {
+	position:absolute;
+	top:18%;
+	font-size:20px;
+	left:25%;
+}
+#zong .xinxi .touxiang .youxiang {
+	position:absolute;
+	top:51%;
+	left:25%;
+	font-size:15px;
+	color:#999;
+}
+#zong .xinxi .touxiang .juzhudi {
+	position:absolute;
+	top:72%;
+	font-size:13px;
+	left:25.5%;
+	color:#999;
+	
+}
+#zong .xinxi .touxiang .name img {
+	margin:2px 0 0 80px;
+}
+#zong .xinxi .touxiang img {
+	width:60px;
+	position:absolute;
+	top:20%;
+	left:4%;
+}
+#zong .xinxi .gongneng {
+	width:100%;
+	
+}
+#zong .xinxi .gongneng .xiangce,#zong .xinxi .gongneng .shoucang,#zong .xinxi .gongneng .huiyuan {
+	width:32.3%;
+	display:inline-block;
+}
+#zong .xinxi .gongneng .xiangce a,#zong .xinxi .gongneng .shoucang a,#zong .xinxi .gongneng .huiyuan a {
+	line-height:45px;
+	text-align:center;
+	font-size:18px;
+	color:#000;
+	display:block;
+	text-indent:35%;
+}
+#zong .xinxi .gongneng .xiangce a {
+	border-right:1px solid #fef;
+	background:url(../images/wode/0-1.png) no-repeat 25% center;
+}
+#zong .xinxi .gongneng .shoucang a {
+	border-right:1px solid #fef;
+	background:url(../images/wode/0-2.png) no-repeat 25% center;
+}
+#zong .xinxi .gongneng .huiyuan a {
+	background:url(../images/wode/0-3.png) no-repeat 25% center;
+}
+#zong .xinxi .gongneng .xiangce a:hover {
+	border-right:1px solid #fef;
+	background:#f8f8f8 url(../images/wode/0-1.png) no-repeat 25% center;
+}
+#zong .xinxi .gongneng .shoucang a:hover {
+	border-right:1px solid #fef;
+	background:#f8f8f8 url(../images/wode/0-2.png) no-repeat 25% center;
+}
+#zong .xinxi .gongneng .huiyuan a:hover {
+	background:#f8f8f8 url(../images/wode/0-3.png) no-repeat 25% center;
+}
+#dingdan {
+	width:100%;
+	height:121px;
+	background:#fff;
+	margin:15px 0 0 0;
+}
+#dingdan .title {
+	width:100%;
+	line-height:40px;
+	font-size:18px;
+	text-indent:2%;
+	border-bottom:1px solid #fef;
+}
+#dingdan .title a {
+	font-size:15px;
+	color:#999;
+	float:right;
+	width:140px;
+	text-align:center;
+	background:url(../images/xinxi/jinru.png) no-repeat 97% center;
+}
+#dingdan .fu a,#dingdan .fa a,#dingdan .shou a,#dingdan .ping a,#dingdan .tui a {
+	width:20%;
+	height:80px;
+	display:block;
+	font-size:14px;
+	color:#777;
+	text-align:center;
+	line-height:120px;
+	float:left;
+}
+#dingdan .fu a {
+	background:url(../images/wode/1-1.png) no-repeat center 20%;
+}
+#dingdan .fa a {
+	background:url(../images/wode/1-2.png) no-repeat center 20%;
+}
+#dingdan .shou a {
+	background:url(../images/wode/1-3.png) no-repeat center 20%;
+}
+#dingdan .ping a {
+	background:url(../images/wode/1-4.png) no-repeat center 20%;
+}
+#dingdan .tui a {
+	background:url(../images/wode/1-5.png) no-repeat center 20%;
+}
+#dingdan .fu a:hover {
+	background:#f8f8f8 url(../images/wode/1-1.png) no-repeat center 20%;
+}
+#dingdan .fa a:hover {
+	background:#f8f8f8 url(../images/wode/1-2.png) no-repeat center 20%;
+}
+#dingdan .shou a:hover {
+	background:#f8f8f8 url(../images/wode/1-3.png) no-repeat center 20%;
+}
+#dingdan .ping a:hover {
+	background:#f8f8f8 url(../images/wode/1-4.png) no-repeat center 20%;
+}
+#dingdan .tui a:hover {
+	background:#f8f8f8 url(../images/wode/1-5.png) no-repeat center 20%;
+}
+#tuijian {
+	width:100%;
+	height:201px;
+	background:#fff;
+	margin:15px 0 0 0;
+}
+#tuijian .tuijian1,#tuijian .tuijian2,#tuijian .tuijian3,#tuijian .tuijian4,#tuijian .tuijian5,#tuijian .tuijian6,#tuijian .tuijian7,#tuijian .tuijian8 {
+	height:100px;
+	width:24.7%;
+	float:left;
+	border-right:1px solid #eee;
+}
+#tuijian .tuijian1,#tuijian .tuijian2,#tuijian .tuijian3,#tuijian .tuijian4 {
+	border-bottom:1px solid #eee;
+}
+#tuijian .tuijian4,#tuijian .tuijian8 {
+	border-right:none;
+}
+#tuijian .tuijian1 a,#tuijian .tuijian2 a,#tuijian .tuijian3 a,#tuijian .tuijian4 a,#tuijian .tuijian5 a,#tuijian .tuijian6 a,#tuijian .tuijian7 a,#tuijian .tuijian8 a {
+	width:100%;
+	height:45px;
+	padding:55px 0 0 0;
+	display:block;
+	font-size:15px;
+	color:#333;
+	text-align:center;
+}
+#tuijian .tuijian1 a {
+	background:url(../images/wode/2-1.png) no-repeat center 20%;
+}
+#tuijian .tuijian2 a {
+	background:url(../images/wode/2-2.png) no-repeat center 20%;
+}
+#tuijian .tuijian3 a {
+	background:url(../images/wode/2-3.png) no-repeat center 20%;
+}
+#tuijian .tuijian4 a {
+	background:url(../images/wode/2-4.png) no-repeat center 20%;
+}
+#tuijian .tuijian5 a {
+	background:url(../images/wode/2-5.png) no-repeat center 20%;
+}
+#tuijian .tuijian6 a {
+	background:url(../images/wode/2-6.png) no-repeat center 20%;
+}
+#tuijian .tuijian7 a {
+	background:url(../images/wode/2-7.png) no-repeat center 20%;
+}
+#tuijian .tuijian8 a {
+	background:url(../images/wode/2-8.png) no-repeat center 20%;
+}
+#tuijian .tuijian1 a:hover {
+	background:#f8f8f8 url(../images/wode/2-1.png) no-repeat center 20%;
+}
+#tuijian .tuijian2 a:hover {
+	background:#f8f8f8 url(../images/wode/2-2.png) no-repeat center 20%;
+}
+#tuijian .tuijian3 a:hover {
+	background:#f8f8f8 url(../images/wode/2-3.png) no-repeat center 20%;
+}
+#tuijian .tuijian4 a:hover {
+	background:#f8f8f8 url(../images/wode/2-4.png) no-repeat center 20%;
+}
+#tuijian .tuijian5 a:hover {
+	background:#f8f8f8 url(../images/wode/2-5.png) no-repeat center 20%;
+}
+#tuijian .tuijian6 a:hover {
+	background:#f8f8f8 url(../images/wode/2-6.png) no-repeat center 20%;
+}
+#tuijian .tuijian7 a:hover {
+	background:#f8f8f8 url(../images/wode/2-7.png) no-repeat center 20%;
+}
+#tuijian .tuijian8 a:hover {
+	background:#f8f8f8 url(../images/wode/2-8.png) no-repeat center 20%;
+}
+#tuijian a span {
+	display:block;
+	width:100%;
+	font-size:10px;
+	color:#aaa;
+}
+#changyong {
+	width:100%;
+	height:141px;
+	background:#fff;
+	margin:15px 0 0 0;
+}
+
+#changyong .title {
+	width:100%;
+	line-height:40px;
+	font-size:18px;
+	text-indent:2%;
+	border-bottom:1px solid #fef;
+}
+#changyong .qiang,#changyong .sheng,#changyong .tejia,#changyong .daren {
+	width:24.68%;
+	height:100px;
+	float:left;
+	text-align:center;
+	border-right:1px solid #eee;
+}
+#changyong .qiang a,#changyong .sheng a,#changyong .tejia a,#changyong .daren a {
+	font-size:15px;
+	height:40px;
+	color:#333;
+	padding:60px 0 0 0;
+	display:block;
+}
+#changyong .qiang a {
+	background:url(../images/wode/3-1.png) no-repeat center 30%;
+}
+#changyong .sheng a {
+	background:url(../images/wode/3-2.png) no-repeat center 30%;
+}
+#changyong .tejia a {
+	background:url(../images/wode/3-3.png) no-repeat center 30%;
+}
+#changyong .daren a {
+	background:url(../images/wode/3-4.png) no-repeat center 30%;
+}
+#changyong .qiang a:hover {
+	background:#f8f8f8 url(../images/wode/3-1.png) no-repeat center 30%;
+}
+#changyong .sheng a:hover {
+	background:#f8f8f8 url(../images/wode/3-2.png) no-repeat center 30%;
+}
+#changyong .tejia a:hover {
+	background:#f8f8f8 url(../images/wode/3-3.png) no-repeat center 30%;
+}
+#changyong .daren a:hover {
+	background:#f8f8f8 url(../images/wode/3-4.png) no-repeat center 30%;
+}
+#dai {
+	width:100%;
+	height:30px;
+}
+
+
+
+
