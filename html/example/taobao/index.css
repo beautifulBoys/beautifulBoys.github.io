@@ -1,0 +1,73 @@
+﻿
+body {
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration:none;
+}
+.main {
+	width:400px;
+	height:400px;
+	background:blue;
+	margin:70px 0 0 100px;
+	position:relative;
+	border:1px solid #ccc;
+}
+.main .shou {
+	background:url(a2.png);
+	position:absolute;
+	display:none;
+	overflow:hidden;
+	top:0;
+	left:0;
+	z-index:20;
+	cursor:move;
+}
+.main .yuan {
+	width:400px;
+	height:400px;
+	display:block;
+	overflow:hidden;
+}
+.main .yuan img {
+	position:absolute;
+	top:0;
+	left:0;
+	width:400px;
+}
+.main .yuan .text {
+	width:90px;
+	height:92px;
+	background:url(a3.png);
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:4;
+	
+}
+.main .show {
+	width:400px;
+	height:400px;
+	position:absolute;
+	top:0;
+	left:410px;
+	display:none;
+	overflow:hidden;
+	border:1px solid #bbb;
+}
+.main .show .images {
+	position:relative;
+}
+.main .show .images img {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+
+
+
+
+
