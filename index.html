@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>李鑫的空间</title>
+</head>
+<body>
+<div class="box">
+    <canvas id="canvas"></canvas>
+    <div class="content">
+        <h3>李鑫的空间</h3>
+        <span>Web front end Engineer</span>
+        <a href="https://beautifulboys.github.io/html/home" target="_blank">主页</a>
+        <a href="https://github.com/beautifulBoys" target="_blank">GitHub</a>
+        <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=X25tZmdma2hmbmkfLi5xPDAy" target="_blank">邮箱</a>
+    </div>
+</div>
+<script>
+    var balls = [];
+//    var ballColors = [
+//        '0, 153, 204, ',
+//        '153, 51, 204, ',
+//        '153, 204, 0, ',
+//        '255, 187, 51, ',
+//        '255, 136, 0, ',
+//        '255, 68, 68, '
+//    ];
+    var ballColors = [
+        '255, 0, 0, ',
+        '205, 51, 255, ',
+        '0, 64, 255, ',
+        '0, 255, 255, ',
+        '153, 254, 0, ',
+        '254, 254, 0, ',
+        '255, 101, 1, '
+    ];
+    window.onload = function () {
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        init(context);
+        window.onresize = function () {
+            init(context);
+        };
+        canvas.onclick = function () {
+            init(context);
+        }
+    };
+    function init (context) {
+        var screen = screenSize();
+        canvas.width = screen.width;
+        canvas.height = screen.height;
+        var num = parseInt(screen.width * screen.height / 100000);
+        if (num < 6) num = 6;
+        balls = [];
+        for (var i = 0; i < num; i++) {
+            var opacity = 0.05 + Math.random() * 0.1;
+            var color = 'rgba(' + ballColors[parseInt(Math.random() * 7)] + opacity + ')';
+            var ball = {
+                x: parseInt(200 * Math.random() * screen.width / 200),
+                y: parseInt(200 * Math.random() * screen.height / 200),
+                r: 30 + parseInt(Math.random() * (10 * num)),
+                c: color
+            };
+            balls.push(ball);
+            paintBall(context, ball.x, ball.y, ball.r, ball.c);
+        }
+    }
+    function paintBall(context, x, y, r, c) {
+        context.fillStyle = c;
+        context.beginPath();
+        context.arc(x, y, r, 0, 2 * Math.PI, false);
+        context.closePath();
+        context.fill();
+    }
+    function screenSize () {
+        return {height: document.documentElement.clientHeight, width: document.documentElement.clientWidth};
+    }
+</script>
+<style>
+    body, html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Microsoft YaHei";
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .box .content {
+        width: 320px;
+        height: 230px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .box .content h3 {
+        text-align: center;
+        color: #333;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+    .box .content span {
+        text-align: center;
+        color: #999;
+        font-size: 18px;
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+        font-family: "consolas";
+    }
+    .box .content a {
+        text-decoration: none;
+        text-align: center;
+        color: #999;
+        font-size: 16px;
+        display: block;
+        margin: 15px;
+    }
+    .box .content a:hover {
+        color: #333;
+    }
+    #canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+</body>
+</html>
