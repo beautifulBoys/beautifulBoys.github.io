@@ -75,7 +75,7 @@ var data = {
       "items": [
         {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a13.jpg",
-          "imgma": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/code/app.png",
+          "imgma": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/code/question.png",
           "title": "答题系统",
           "time": "2017-03-28",
           "content": "该答题系统将答题流程程序化，可以很方便的将题目呈现给别人。前端展示来源于驾校一点通小程序，用VUE做数据驱动，未借助其他工具库。目前只支持单选，以后会陆续实现多功能化。"
