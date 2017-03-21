@@ -63,7 +63,7 @@ var data = {
             "official": "http://www.syuct.edu.cn/",
             "model": "https://beautifulboys.github.io/html/huada/"
           },
-          "content": "由于学校的官网年久失修，板式老套，打算给做个改版，奈何精力有限，未能完成，实为憾事 ^ _ ^。采用php编写后台代码，在此PHP以剔除，只留下了html做展示。"
+          "content": "由于学校的官网年久失修，板式老套，打算给做个改版，后来未能完成，实为憾事 ^ _ ^。采用php编写后台代码，在此PHP以剔除，只留下了html做展示。"
         }
       ]
     },
