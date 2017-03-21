@@ -82,7 +82,7 @@ body {
 }
 
 div.box {
-    width: auto;
+    width: 100%;
     height: 180px;
     display: none;
     top: 193px;
@@ -107,6 +107,7 @@ li:hover div.box {
     width: 1365px;
     margin: 0 auto;
     position: relative;
+	background:#fff;
 }
 
 #zong img {
