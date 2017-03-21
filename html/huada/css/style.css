@@ -1,298 +1,330 @@
 @CHARSET "UTF-8";
 * {
-	margin:0;
-	padding:0;
-}
-body {
-	font-size:12px;
-	overflow-x:hidden;
-}
-#header {
-	width:auto;
-	height:155px;
-}
-#header #main {
-	width:1365px;
-	height:155px;
-	margin:0 auto;
-	background:url(../images/title.png);
-}
-#header #main img {
-	margin:40px 0 0 120px;
-	border:none;
-}
-#header #main #shang {
-	height:30px;
-	padding:0 0 0 100px;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-size: 12px;
+    overflow-x: hidden;
+}
+
+#header {
+    width: auto;
+    height: 155px;
+}
+
+#header #main {
+    width: 1365px;
+    height: 155px;
+    margin: 0 auto;
+    background: url(../images/title.png);
+}
+
+#header #main img {
+    margin: 40px 0 0 120px;
+    border: none;
+}
+
+#header #main #shang {
+    height: 30px;
+    padding: 0 0 0 100px;
+}
 
 #header #main #shang a {
-	line-height:30px;
-	font-size:15px;
-	color:#ccc;
-	margin:0 10px;
-	padding:0 5px;
-	text-decoration:none;
+    line-height: 30px;
+    font-size: 15px;
+    color: #ccc;
+    margin: 0 10px;
+    padding: 0 5px;
+    text-decoration: none;
 }
+
 #header #main #shang a:hover {
-	color:#fff;
+    color: #fff;
 }
-
-
-
 
 #bar {
-	width:auto;
-	height:38px;
-	background:#fff;
+    width: auto;
+    height: 38px;
+    background: #fff;
 }
+
 #bar #main {
-	width:1365px;
-	height:38px;
-	margin:0 auto;
+    width: 1365px;
+    height: 38px;
+    margin: 0 auto;
 }
-#bar #main ul  {
-	margin:0 0 0 100px;
+
+#bar #main ul {
+    margin: 0 0 0 100px;
 }
+
 #bar #main ul li {
-	float:left;
-	list-style-type:none;
-	font-size:18px;
+    float: left;
+    list-style-type: none;
+    font-size: 18px;
 }
+
 #bar #main ul li div span a {
-	font-family: "Microsoft YaHei UI";
-	color:#000;
-	display:block;
-	padding:0 35px;
-	margin:0 5px;
-	text-decoration:none;
-	line-height:38px;
+    font-family: "Microsoft YaHei UI";
+    color: #000;
+    display: block;
+    padding: 0 35px;
+    margin: 0 5px;
+    text-decoration: none;
+    line-height: 38px;
 }
+
 #bar #main ul li div span a:hover {
-	background:#333;
-	color:#fff
+    background: #333;
+    color: #fff
 }
+
 div.box {
-    width:auto; 
+    width: auto;
     height: 180px;
-	background:#333;
     display: none;
     top: 193px;
-	left:0;
+    left: 0;
     position: absolute;
     background: #fff;
-	border-color:#dedede;
-	border-style:solid;
-	border-width:1px 0 0 0;
-}
-li:hover div.box {
-    display: block; 
+    border-top: 1px solid #dedede;
+    z-index: 100;
 }
 
+li:hover div.box {
+    display: block;
+}
 
 #mainzong {
-	width:1365px;
-	height:1780px;
-	margin:0 auto;
-}
-#zong {
-	width:1365px;
-	margin:0 auto;
-	position:relative;
-}
-#zong img {
-	margin:20px 0 0 80px;
-	border:1px solid #ddd;
+    width: 1365px;
+    height: 1780px;
+    margin: 0 auto;
 }
 
+#zong {
+    width: 1365px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#zong img {
+    margin: 20px 0 0 80px;
+    border: 1px solid #ddd;
+}
 
 #zong div.mingyan {
-	width:220px;
-	height:100px;
-	padding:30px 0 0 0;
-	position:absolute;
-	top:20px;
-	left:500px;
+    width: 220px;
+    height: 100px;
+    padding: 30px 0 0 0;
+    position: absolute;
+    top: 20px;
+    left: 500px;
 }
+
 #zong div.mingyan p {
-	font-family:"Microsoft YaHei UI";
-	font-size:16px;
-	line-height:25px;
-	color:#ff8a00;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    line-height: 25px;
+    color: #ff8a00;
 }
+
 #zong div.lianjie1 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:770px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 770px;
 }
+
 #zong div.lianjie2 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:940px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 940px;
 }
+
 #zong div.lianjie3 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:20px;
-	left:680px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 680px;
 }
+
 #zong div.lianjie4 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:20px;
-	left:880px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 880px;
 }
+
 #zong div.lianjie5 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:20px;
-	left:1100px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 1100px;
 }
+
 #zong div.lianjie6 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:20px;
-	left:680px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 680px;
 }
+
 #zong div.lianjie7 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:20px;
-	left:910px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 910px;
 }
+
 #zong div.lianjie8 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:40px;
-	left:740px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 40px;
+    left: 740px;
 }
+
 #zong div.lianjie9 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:40px;
-	left:920px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 40px;
+    left: 920px;
 }
+
 #zong div.lianjie10 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:720px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 720px;
 }
+
 #zong div.lianjie11 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:920px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 920px;
 }
+
 #zong div.lianjie12 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:720px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 720px;
 }
+
 #zong div.lianjie13 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:920px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 920px;
 }
+
 #zong div.lianjie14 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:720px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 720px;
 }
+
 #zong div.lianjie15 {
-	width:180px;
-	height:140px;
-	position:absolute;
-	top:30px;
-	left:900px;
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 900px;
 }
 
 #zong ol {
-	padding:0 10px;
-}
-#zong ol li {
-	width:180px;
-	height:auto;
-	margin:2px 0;
-}
-#zong ol li a {
-	font-size:16px;
-	font-family:"Microsoft YaHei UI";
-	line-height:30px;
-	text-decoration:none;
-	color:#333;
-}
-#zong ol li a:hover {
-	color:blue;
+    padding: 0 10px;
 }
 
+#zong ol li {
+    width: 180px;
+    height: auto;
+    margin: 2px 0;
+}
+
+#zong ol li a {
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+    line-height: 30px;
+    text-decoration: none;
+    color: #333;
+}
+
+#zong ol li a:hover {
+    color: blue;
+}
 
 #footer {
-	height:150px;
-	background:#0074eb;
+    height: 150px;
+    background: #0074eb;
 }
+
 #footer #mainfooter {
-	position:relative;
-	width:1140px;
-	margin:0 auto;
-	padding:30px 0;
-	font-family: "Microsoft YaHei UI";
-	background:url(../images/jiange.png) 412px 30px no-repeat;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/jiange.png) 412px 30px no-repeat;
 }
+
 #footer #mainfooter #neirong1 {
-	width:300px;
-	height:70px;
-	margin:0 0 0 120px;
-	padding:15px 0 0 0;
+    width: 300px;
+    height: 70px;
+    margin: 0 0 0 120px;
+    padding: 15px 0 0 0;
 }
+
 #footer #mainfooter #neirong1 img {
-	border:none;
+    border: none;
 }
+
 #footer #mainfooter #neirong2 {
-	width:200px;
-	height:80px;
-	position:absolute;
-	top:30px;
-	left:440px;
-	padding:10px 0 0 0;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 440px;
+    padding: 10px 0 0 0;
 }
+
 #footer #mainfooter #neirong2 ul li {
-	list-style-type:none;
-	line-height:20px;
-	font-size:13px;
-	color:#fff;
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 13px;
+    color: #fff;
 }
+
 #footer #mainfooter #neirong3 {
-	width:340px;
-	height:80px;
-	position:absolute;
-	top:30px;
-	left:680px;
-	padding:10px 0 0 0;
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 680px;
+    padding: 10px 0 0 0;
 }
+
 #footer #mainfooter #neirong3 ul li {
-	list-style-type:none;
-	line-height:20px;
-	font-size:13px;
-	color:#fff;
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 13px;
+    color: #fff;
 }

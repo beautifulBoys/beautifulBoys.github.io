@@ -1,931 +1,1061 @@
 @CHARSET "UTF-8";
 #news {
-	width:390px;
-	height:300px;
-	float:left;
-	margin:30px 0 0 105px;
-}
-#news .header img {
-	margin:5px 0 0 130px;
-	border:none;
-	width:25px;
-	height:25px;
-}
-#news div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
-}
-#news div.header ol li {
-	list-style-type:none;
-}
-#news div.header ol li a{
-	display:block;
-	width:100px;
-	height:38px;
-	float:left;
-	font-size:18px;
-	line-height:37px;
-	color:#000;
-	text-align:center;
-	margin:0 0 0 10px;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
-	background:#d9ecff;
-}
-#news .header{ 
-	overflow:hidden;
+    width: 390px;
+    height: 300px;
+    float: left;
+    margin: 30px 0 0 105px;
 }
 
-#news .header ol li a:hover{ 
-	background:#0074eb; 
-	color:#fff; 
-	text-decoration:none;
+#news .header img {
+    margin: 5px 0 0 130px;
+    border: none;
+    width: 25px;
+    height: 25px;
 }
-#news .header ol li a.on{ 
-	background:#0074eb; 
-	color:#fff; 
-	text-decoration:none;
+
+#news div.header {
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
-#news .main { 
-	overflow:hidden; 
-	width:390px; 
-	height:265px; 
-	position:relative;
+
+#news div.header ol li {
+    list-style-type: none;
 }
-#news .main li { 
-	width:380px; 
-	height:30px; 
-	float:left;
+
+#news div.header ol li a {
+    display: block;
+    width: 100px;
+    height: 38px;
+    float: left;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000;
+    text-align: center;
+    margin: 0 0 0 10px;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
+    background: #d9ecff;
 }
+
+#news .header {
+    overflow: hidden;
+}
+
+#news .header ol li a:hover {
+    background: #0074eb;
+    color: #fff;
+    text-decoration: none;
+}
+
+#news .header ol li a.on {
+    background: #0074eb;
+    color: #fff;
+    text-decoration: none;
+}
+
+#news .main {
+    overflow: hidden;
+    width: 390px;
+    height: 265px;
+    position: relative;
+}
+
+#news .main li {
+    width: 380px;
+    height: 30px;
+    float: left;
+}
+
 #news .main ul {
-	width:370px;
-	margin:10px 10px;
-	position:absolute;
+    width: 370px;
+    margin: 10px 10px;
+    position: absolute;
 }
+
 #news .main ul li {
-	list-style-type:none;
-	margin:2px 0 0 0;
+    list-style-type: none;
+    margin: 2px 0 0 0;
 }
+
 #news .main ul li a {
-	font-size:15px;
-	height:30px;
-	line-height:30px;
-	width:370px;
-	color:#000;
-	text-decoration:none;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 370px;
+    color: #000;
+    text-decoration: none;
 }
+
 #news .main ul li ol li {
-	border-color:#000;
-	border-style:dashed;
-	border-width:0 0 1px 0;
+    border-color: #000;
+    border-style: dashed;
+    border-width: 0 0 1px 0;
 }
+
 #news .main ul li em {
-	float:right;
-	font-size:15px;
-	padding:7px 0 0 0;
-	font-style:normal;
+    float: right;
+    font-size: 15px;
+    padding: 7px 0 0 0;
+    font-style: normal;
 }
+
 #news .main ul li a:hover {
-	color:#0033ff;
+    color: #0033ff;
 }
 
 #wenhua {
-	float:right;
-	width:710px;
-	height:280px;
-	margin:30px 125px 0 0;
+    float: right;
+    width: 710px;
+    height: 280px;
+    margin: 30px 125px 0 0;
 }
+
 #wenhua .header img {
-	margin:5px 0 0 445px;
-	border:none;
-	width:25px;
-	height:25px;
+    margin: 5px 0 0 445px;
+    border: none;
+    width: 25px;
+    height: 25px;
 }
+
 #wenhua div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
+
 #wenhua div.header ol li {
-	list-style-type:none;
+    list-style-type: none;
 }
-#wenhua div.header ol li a{
-	display:block;
-	width:100px;
-	height:38px;
-	float:left;
-	font-size:18px;
-	line-height:37px;
-	color:#000;
-	text-align:center;
-	margin:0 0 0 10px;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
-	background:#d9ecff;
+
+#wenhua div.header ol li a {
+    display: block;
+    width: 100px;
+    height: 38px;
+    float: left;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000;
+    text-align: center;
+    margin: 0 0 0 10px;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
+    background: #d9ecff;
 }
+
 #wenhua div.header ol li a:hover {
-	background:#0074eb;
-	color:#fff;
-}
-#wenhua div.header ol li a.on{ 
-	background:#0074eb; 
-	color:#fff; 
-	text-decoration:none;
-}
-#wenhua .header{ 
-	overflow:hidden;
+    background: #0074eb;
+    color: #fff;
 }
 
-#wenhua .header ol li a:hover{ 
-	background:#0074eb; 
-	color:#fff; 
-	text-decoration:none;
+#wenhua div.header ol li a.on {
+    background: #0074eb;
+    color: #fff;
+    text-decoration: none;
 }
-#wenhua .header ol li a.on{ 
-	background:#0074eb; 
-	color:#fff; 
-	text-decoration:none;
+
+#wenhua .header {
+    overflow: hidden;
 }
-#wenhua .main { 
-	overflow:hidden; 
-	width:710px; 
-	height:265px; 
-	position:relative;
+
+#wenhua .header ol li a:hover {
+    background: #0074eb;
+    color: #fff;
+    text-decoration: none;
 }
-#wenhua .main li { 
-	width:710px; 
-	height:30px; 
-	float:left;
+
+#wenhua .header ol li a.on {
+    background: #0074eb;
+    color: #fff;
+    text-decoration: none;
 }
+
+#wenhua .main {
+    overflow: hidden;
+    width: 710px;
+    height: 265px;
+    position: relative;
+}
+
+#wenhua .main li {
+    width: 710px;
+    height: 30px;
+    float: left;
+}
+
 #wenhua .main ul {
-	width:710px;
-	margin:10px 10px;
-	position:absolute;
+    width: 710px;
+    margin: 10px 10px;
+    position: absolute;
 }
+
 #wenhua .main ul li {
-	list-style-type:none;
-	margin:2px 0 0 0;
+    list-style-type: none;
+    margin: 2px 0 0 0;
 }
+
 #wenhua .main ul li a {
-	font-size:15px;
-	height:30px;
-	line-height:30px;
-	width:370px;
-	color:#000;
-	text-decoration:none;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 370px;
+    color: #000;
+    text-decoration: none;
 }
+
 #wenhua .main ul li dl {
-	float:left;
+    float: left;
 }
+
 #wenhua .main ul li dl dd.text {
-	width:260px;
-	line-height:20px;
+    width: 260px;
+    line-height: 20px;
 }
+
 #wenhua .main ul li dl dt img {
-	border:1px solid #ccc;
+    border: 1px solid #ccc;
 }
+
 #wenhua .main ul li dl dt img:hover {
-	border:1px solid #0074eb;
+    border: 1px solid #0074eb;
 }
+
 #wenhua .main ul li dl dd.title a {
-	color:#0074eb;
-	text-decoration:underline;
+    color: #0074eb;
+    text-decoration: underline;
 }
+
 #wenhua .main ul li ol {
-	float:right;
-	width:400px;
-	margin:0 20px;
+    float: right;
+    width: 400px;
+    margin: 0 20px;
 }
+
 #wenhua .main ul li ol li {
-	width:400px;
-	border-color:#000;
-	border-style:dashed;
-	border-width:0 0 1px 0;
+    width: 400px;
+    border-color: #000;
+    border-style: dashed;
+    border-width: 0 0 1px 0;
 }
+
 #wenhua .main ul li em {
-	float:right;
-	font-size:15px;
-	padding:7px 0 0 0;
-	font-style:normal;
+    float: right;
+    font-size: 15px;
+    padding: 7px 0 0 0;
+    font-style: normal;
 }
+
 #wenhua .main ul li a:hover {
-	color:#0033ff;
+    color: #0033ff;
 }
-
-
-
-
-
-
-
-
-
-
 
 #renwu {
-	width:1135px;
-	height:250px;
-	margin:10px 0 0 105px;
-	float:left;
+    width: 1135px;
+    height: 250px;
+    margin: 10px 0 0 105px;
+    float: left;
 }
+
 #renwu div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
+
 #renwu div.header img {
-	margin:5px 0 0 985px;
-	border:none;
+    margin: 5px 0 0 985px;
+    border: none;
 }
+
 #renwu div.header ol li {
-	background:#0074eb;
-	width:100px;
-	height:35px;
-	float:left;
-	list-style-type:none;
-	margin:0 0 0 10px;
+    background: #0074eb;
+    width: 100px;
+    height: 35px;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 10px;
 }
+
 #renwu div.header ol li a {
-	height:35px;
-	width:100px;
-	font-size:18px;
-	color:#fff;
-	display:block;
-	line-height:37px;
-	text-align:center;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    line-height: 37px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
 }
+
 #renwu div.header ol li a:hover {
-	background:#0074eb;
-	color:#fff;
+    background: #0074eb;
+    color: #fff;
 }
+
 #renwu div.main {
-	width:1100px;
-	height:200px;
-	margin:20px auto;
+    width: 1100px;
+    height: 200px;
+    margin: 20px auto;
 }
+
 #renwu div.main dl {
-	float:left;
-	margin:10px 8px;
+    float: left;
+    margin: 10px 8px;
 }
+
 #renwu div.main dl dd {
-	text-align:center;
-	font-size:16px;
-	color:#0165ca;
-	margin:15px auto;
-	font-weight:bold;
+    text-align: center;
+    font-size: 16px;
+    color: #0165ca;
+    margin: 15px auto;
+    font-weight: bold;
 }
+
 #renwu div.main dl dt img {
-	border:1px solid #ccc;
+    border: 1px solid #ccc;
 }
+
 #renwu div.main dl dt img:hover {
-	border:1px solid blue;
+    border: 1px solid blue;
 }
+
 #daohang {
-	width:1135px;
-	height:48px;
-	float:left;
-	background:#0074eb;
-	margin:20px 0 0 105px;
+    width: 1135px;
+    height: 48px;
+    float: left;
+    background: #0074eb;
+    margin: 20px 0 0 105px;
 }
+
 #daohang div.sousuo {
-	float:left;
-	width:400px;
+    float: left;
+    width: 400px;
 }
+
 #daohang div.sousuo input.kuang {
-	width:250px;
-	height:28px;
-	margin:8px 15px 5px 40px;
-	font-size:16px;
+    width: 250px;
+    height: 28px;
+    margin: 8px 15px 5px 40px;
+    font-size: 16px;
 }
+
 #daohang div.sousuo input.submit {
-	width:80px;
-	height:30px;
-	border:1px solid #fff;
-	cursor:pointer;
-	font-size:15px;
-	color:blue;
-	font-weight:bold;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
 }
+
 #daohang div.xinxi {
-	float:right;
-	width:600px;
-	height:48px;
+    float: right;
+    width: 600px;
+    height: 48px;
 }
+
 #daohang div.xinxi ul li {
-	list-style-type:none;
-	float:left;
-	margin:0 5px;
-	background:red;
-	padding:0 10px;
+    list-style-type: none;
+    float: left;
+    margin: 0 5px;
+    background: red;
+    padding: 0 10px;
 }
+
 #daohang div.xinxi ul li.beijing1 {
-	background:url(../images/images.png) 12px 8px no-repeat;
+    background: url(../images/images.png) 12px 8px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing1:hover {
-	background:url(../images/images.png) 12px -54px no-repeat;
+    background: url(../images/images.png) 12px -54px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing2 {
-	background:url(../images/images.png) -165px 8px no-repeat;
+    background: url(../images/images.png) -165px 8px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing2:hover {
-	background:url(../images/images.png) -165px -54px no-repeat;
+    background: url(../images/images.png) -165px -54px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing3 {
-	background:url(../images/images.png) -348px 8px no-repeat;
+    background: url(../images/images.png) -348px 8px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing3:hover {
-	background:url(../images/images.png) -348px -54px no-repeat;
+    background: url(../images/images.png) -348px -54px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing4 {
-	background:url(../images/images.png) -518px 8px no-repeat;
+    background: url(../images/images.png) -518px 8px no-repeat;
 }
+
 #daohang div.xinxi ul li.beijing4:hover {
-	background:url(../images/images.png) -518px -54px no-repeat;
+    background: url(../images/images.png) -518px -54px no-repeat;
 }
+
 #daohang div.xinxi ul li a {
-	font-size:17px;
-	color:#fff;
-	line-height:48px;
-	display:block;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
-	padding:0 0 0 40px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 48px;
+    display: block;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
+    padding: 0 0 0 40px;
 }
+
 #daohang div.xinxi ul li a:hover {
-	color:#fdee00;
+    color: #fdee00;
 }
+
 #gonggao {
-	float:left;
-	width:710px;
-	height:280px;
-	margin:30px 0 0 105px;
+    float: left;
+    width: 710px;
+    height: 280px;
+    margin: 30px 0 0 105px;
 }
+
 #gonggao div.header ol li {
-	background:#0074eb;
-	width:100px;
-	height:35px;
-	float:left;
-	list-style-type:none;
-	margin:0 0 0 10px;
+    background: #0074eb;
+    width: 100px;
+    height: 35px;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 10px;
 }
+
 #gonggao div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
+
 #gonggao div.header img {
-	margin:5px 0 0 560px;
-	border:none;
+    margin: 5px 0 0 560px;
+    border: none;
 }
+
 #gonggao div.header ol li a {
-	height:35px;
-	width:100px;
-	font-size:18px;
-	color:#fff;
-	display:block;
-	line-height:37px;
-	text-align:center;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    line-height: 37px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
 }
+
 #gonggao div.header ol li a:hover {
-	background:#0074eb;
-	color:#fff;
+    background: #0074eb;
+    color: #fff;
 }
+
 #gonggao div.main dl {
-	float:left;
+    float: left;
 }
+
 #gonggao div.main dl dt img {
-	margin:20px 0 0 20px;
-	border:1px solid #ccc;
+    margin: 20px 0 0 20px;
+    border: 1px solid #ccc;
 }
+
 #gonggao div.main dl dt img:hover {
-	border:1px solid blue;
+    border: 1px solid blue;
 }
+
 #gonggao div.main dl dd {
-	margin:10px 10px 0 30px;
-	width:250px;
-	color:#0165ca;
-	font-size:15px;
+    margin: 10px 10px 0 30px;
+    width: 250px;
+    color: #0165ca;
+    font-size: 15px;
 }
+
 #gonggao div.main dl dd.text {
-	font-size:12px;
-	line-height:20px;
-	color:#333;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
 }
 
 #gonggao div.main ul {
-	width:380px;
-	float:right;
-	margin:10px 5px 0 0;
-}
-#gonggao div.main ul li {
-	list-style-type:none;
-	margin:2px 0 0 0;
-	border-color:#000;
-	border-style:dashed;
-	border-width:0 0 1px 0;
-}
-#gonggao div.main ul li a {
-	font-size:15px;
-	height:30px;
-	line-height:30px;
-	color:#000;
-	text-decoration:none;
-}
-#gonggao div.main ul li a:hover {
-	color:#0033ff;
-}
-#gonggao div.main ul li em {
-	float:right;
-	font-size:15px;
-	padding:7px 0 0 0;
-	font-style:normal;
+    width: 380px;
+    float: right;
+    margin: 10px 5px 0 0;
 }
 
+#gonggao div.main ul li {
+    list-style-type: none;
+    margin: 2px 0 0 0;
+    border-color: #000;
+    border-style: dashed;
+    border-width: 0 0 1px 0;
+}
+
+#gonggao div.main ul li a {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+}
+
+#gonggao div.main ul li a:hover {
+    color: #0033ff;
+}
+
+#gonggao div.main ul li em {
+    float: right;
+    font-size: 15px;
+    padding: 7px 0 0 0;
+    font-style: normal;
+}
 
 #gongkaike {
-	width:390px;
-	height:300px;
-	margin:30px 125px 0 0;
-	float:right;
+    width: 390px;
+    height: 300px;
+    margin: 30px 125px 0 0;
+    float: right;
 }
+
 #gongkaike div.header ol li {
-	background:#0074eb;
-	width:140px;
-	height:35px;
-	float:left;
-	list-style-type:none;
-	margin:0 0 0 10px;
+    background: #0074eb;
+    width: 140px;
+    height: 35px;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 10px;
 }
+
 #gongkaike div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
+
 #gongkaike div.header img {
-	margin:5px 0 0 200px;
-	border:none;
+    margin: 5px 0 0 200px;
+    border: none;
 }
+
 #gongkaike div.header ol li a {
-	height:35px;
-	width:140px;
-	font-size:18px;
-	color:#fff;
-	display:block;
-	line-height:37px;
-	text-align:center;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
+    height: 35px;
+    width: 140px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    line-height: 37px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
 }
+
 #gongkaike div.header ol li a:hover {
-	background:#0074eb;
-	color:#fff;
+    background: #0074eb;
+    color: #fff;
 }
+
 #gongkaike div.main {
-	margin:10px 0;
-	width:370px;
-	height:230px;
+    margin: 10px 0;
+    width: 370px;
+    height: 230px;
 }
+
 #gongkaike div.main ul {
-	margin:0 0 0 5px;
+    margin: 0 0 0 5px;
 }
+
 #gongkaike div.main ul li {
-	width:365px;
-	height:76px;
-	list-style-type:none;
-	margin:0 10px;
-	border-color:#333;
-	border-style:dashed;
-	border-width:0 0 1px 0;
+    width: 365px;
+    height: 76px;
+    list-style-type: none;
+    margin: 0 10px;
+    border-color: #333;
+    border-style: dashed;
+    border-width: 0 0 1px 0;
 }
+
 #gongkaike div.main ul li .lizong {
-	width:365px;
-	height:76px;
-	display:block;
+    width: 365px;
+    height: 76px;
+    display: block;
 }
+
 #gongkaike div.main ul li .lizong .calendar {
-	width:70px;
-	height:76px;
-	float:left;
-	background:url(../images/images.png) 0 -115px no-repeat;
+    width: 70px;
+    height: 76px;
+    float: left;
+    background: url(../images/images.png) 0 -115px no-repeat;
 }
+
 #gongkaike div.main ul li .lizong .calendar span {
-	font-family: "Microsoft YaHei UI";
-	margin:22px 0 0 14px;
-	display:block;
-	color:#fff;
+    font-family: "Microsoft YaHei UI";
+    margin: 22px 0 0 14px;
+    display: block;
+    color: #fff;
 }
+
 #gongkaike div.main ul li .lizong .calendar p {
-	margin:1px 0 0 13px;
-	color:blue;
-	font-size:22px;
-	font-family: "Microsoft YaHei UI";
+    margin: 1px 0 0 13px;
+    color: blue;
+    font-size: 22px;
+    font-family: "Microsoft YaHei UI";
 }
+
 #gongkaike div.main ul li .lizong .content {
-	width:295px;
-	height:70px;
-	float:right;
-	margin:5px 0 0 0;
+    width: 295px;
+    height: 70px;
+    float: right;
+    margin: 5px 0 0 0;
 }
+
 #gongkaike div.main ul li .lizong .content span {
-	color:blue;
-	font-size:15px;
-	line-height:31px;
-	font-family: "Microsoft YaHei UI";
+    color: blue;
+    font-size: 15px;
+    line-height: 31px;
+    font-family: "Microsoft YaHei UI";
 }
+
 #gongkaike div.main ul li .lizong .content span a {
-	color:blue;
-	text-decoration:none;
+    color: blue;
+    text-decoration: none;
 }
+
 #gongkaike div.main ul li .lizong .content span a:hover {
-	text-decoration:underline;
+    text-decoration: underline;
 }
+
 #gongkaike div.main ul li .lizong .content p {
-	line-height:17px;
-	font-size:12px;
-	color:#888;
+    line-height: 17px;
+    font-size: 12px;
+    color: #888;
 }
-
-
 
 #lianjie {
-	float:left;
-	width:710px;
-	height:280px;
-	margin:30px 0 0 105px;
+    float: left;
+    width: 710px;
+    height: 280px;
+    margin: 30px 0 0 105px;
 
 }
+
 #lianjie div.header ol li {
-	background:#0074eb;
-	width:100px;
-	height:35px;
-	float:left;
-	list-style-type:none;
-	margin:0 0 0 10px;
+    background: #0074eb;
+    width: 100px;
+    height: 35px;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 10px;
 }
+
 #lianjie div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
+
 #lianjie div.header ol li a {
-	height:35px;
-	width:100px;
-	font-size:18px;
-	color:#fff;
-	display:block;
-	line-height:37px;
-	text-align:center;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    line-height: 37px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
 }
+
 #lianjie div.header ol li a:hover {
-	background:#0074eb;
-	color:#fff;
+    background: #0074eb;
+    color: #fff;
 }
 
 #fenmain {
-	width:680px;
-	height:270px;
-	margin:35px 10px 10px 10px;
-	position:relative;
-}
-#fenmain a:hover {
-	color:#fff;
-}
-#fenmain div.kuai1 {
-	width:165px;
-	height:80px;
-	background:#b6d9ff;
-}
-#fenmain div.kuai1:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai1 a:hover {
-	background:url(../images/images.png) -155px -277px no-repeat;
-}
-#fenmain div.kuai1 a {
-	display:block;
-	font-size:16px;
-	line-height:80px;
-	padding:0 0 0 75px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:url(../images/images.png) -155px -193px no-repeat;
-}
-#fenmain div.kuai2 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:0;
-	left:170px;
-}
-#fenmain div.kuai2 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai3 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:0;
-	left:255px;
-}
-#fenmain div.kuai3 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai4 {
-	position:absolute;
-	top:0;
-	left:340px;
-	width:165px;
-	height:80px;
-	background:#b6d9ff;
-}
-#fenmain div.kuai4:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai4 a {
-	display:block;
-	font-size:16px;
-	line-height:80px;
-	padding:0 0 0 75px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:url(../images/images.png) -500px -193px no-repeat;	
-}
-#fenmain div.kuai4 a:hover {
-	background:url(../images/images.png) -500px -277px no-repeat;
-}
-#fenmain div.kuai5 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:0;
-	left:510px;
-}
-#fenmain div.kuai5 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai6 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:0;
-	left:595px;
-}
-#fenmain div.kuai6 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai7 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:85px;
-	left:0;
-}
-#fenmain div.kuai7 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai8 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:85px;
-	left:85px;
-}
-#fenmain div.kuai8 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai9 {
-	position:absolute;
-	top:85px;
-	left:170px;
-	width:165px;
-	height:80px;
-	background:#b6d9ff;
-}
-#fenmain div.kuai9:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai9 a {
-	display:block;
-	font-size:16px;
-	line-height:80px;
-	padding:0 0 0 80px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:url(../images/images.png) 35px -193px no-repeat;	
-}
-#fenmain div.kuai9 a:hover {
-	background:url(../images/images.png) 35px -277px no-repeat;
-}
-#fenmain div.kuai10 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:85px;
-	left:340px;
-}
-#fenmain div.kuai10 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai11 a {
-	width:80px;
-	height:80px;
-	display:block;
-	text-align:center;
-	line-height:80px;
-	font-size:16px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:#b6d9ff;
-	position:absolute;
-	top:85px;
-	left:425px;
-}
-#fenmain div.kuai11 a:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai12 {
-	position:absolute;
-	top:85px;
-	left:510px;
-	width:165px;
-	height:80px;
-	background:#b6d9ff;
-}
-#fenmain div.kuai12:hover {
-	background:#0074eb;
-}
-#fenmain div.kuai12 a {
-	display:block;
-	font-size:16px;
-	line-height:80px;
-	padding:0 0 0 75px;
-	text-decoration:none;
-	font-family: "Microsoft YaHei UI";
-	background:url(../images/images.png) -330px -193px no-repeat;	
-}
-#fenmain div.kuai12 a:hover {
-	background:url(../images/images.png) -330px -277px no-repeat;
-}
-#fenmain div.kuai13 {
-	width:650px;
-	height:180px;
-	position:absolute;
-	top:190px;
-	left:0;
-}
-#fenmain div.kuai13 img {
-	border:none;
+    width: 680px;
+    height: 270px;
+    margin: 35px 10px 10px 10px;
+    position: relative;
 }
 
+#fenmain a:hover {
+    color: #fff;
+}
+
+#fenmain div.kuai1 {
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai1:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai1 a:hover {
+    background: url(../images/images.png) -155px -277px no-repeat;
+}
+
+#fenmain div.kuai1 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 75px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) -155px -193px no-repeat;
+}
+
+#fenmain div.kuai2 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 170px;
+}
+
+#fenmain div.kuai2 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai3 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 255px;
+}
+
+#fenmain div.kuai3 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai4 {
+    position: absolute;
+    top: 0;
+    left: 340px;
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai4:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai4 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 75px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) -500px -193px no-repeat;
+}
+
+#fenmain div.kuai4 a:hover {
+    background: url(../images/images.png) -500px -277px no-repeat;
+}
+
+#fenmain div.kuai5 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 510px;
+}
+
+#fenmain div.kuai5 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai6 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 595px;
+}
+
+#fenmain div.kuai6 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai7 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 0;
+}
+
+#fenmain div.kuai7 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai8 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 85px;
+}
+
+#fenmain div.kuai8 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai9 {
+    position: absolute;
+    top: 85px;
+    left: 170px;
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai9:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai9 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 80px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) 35px -193px no-repeat;
+}
+
+#fenmain div.kuai9 a:hover {
+    background: url(../images/images.png) 35px -277px no-repeat;
+}
+
+#fenmain div.kuai10 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 340px;
+}
+
+#fenmain div.kuai10 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai11 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 425px;
+}
+
+#fenmain div.kuai11 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai12 {
+    position: absolute;
+    top: 85px;
+    left: 510px;
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai12:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai12 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 75px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) -330px -193px no-repeat;
+}
+
+#fenmain div.kuai12 a:hover {
+    background: url(../images/images.png) -330px -277px no-repeat;
+}
+
+#fenmain div.kuai13 {
+    width: 650px;
+    height: 180px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+
+#fenmain div.kuai13 img {
+    border: none;
+}
 
 #zhuanti {
-	width:390px;
-	height:300px;
-	float:right;
-	margin:10px 125px 0 0;
+    width: 390px;
+    height: 300px;
+    float: right;
+    margin: 10px 125px 0 0;
 }
+
 #zhuanti div.header ol li {
-	background:#0074eb;
-	width:140px;
-	height:35px;
-	float:left;
-	list-style-type:none;
-	margin:0 0 0 10px;
+    background: #0074eb;
+    width: 140px;
+    height: 35px;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 10px;
 }
+
 #zhuanti div.header {
-	height:35px;
-	border-style:solid;
-	border-color:#0074eb;
-	border-width:0 0 3px 0;
+    height: 35px;
+    border-style: solid;
+    border-color: #0074eb;
+    border-width: 0 0 3px 0;
 }
+
 #zhuanti div.header img {
-	margin:5px 0 0 200px;
-	border:none;
+    margin: 5px 0 0 200px;
+    border: none;
 }
+
 #zhuanti div.header ol li a {
-	height:35px;
-	width:140px;
-	font-size:18px;
-	color:#fff;
-	display:block;
-	line-height:37px;
-	text-align:center;
-	font-family: "Microsoft YaHei UI";
-	text-decoration:none;
+    height: 35px;
+    width: 140px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    line-height: 37px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
 }
+
 #zhuanti div.header ol li a:hover {
-	background:#0074eb;
-	color:#fff;
+    background: #0074eb;
+    color: #fff;
 }
+
 #zhuanti div.main {
-	width:400px;
-	height:290px;
-	margin:30px 0 0 10px;
+    width: 400px;
+    height: 290px;
+    margin: 30px 0 0 10px;
 }
+
 #zhuanti div.main ul li {
-	list-style-type:none;
-	height:100px;
+    list-style-type: none;
+    height: 100px;
 }
+
 #zhuanti div.main ul li img {
-	border:1px solid #ccc;
+    border: 1px solid #ccc;
 }
+
 #zhuanti div.main ul li img:hover {
-	border:1px solid red;
+    border: 1px solid red;
 }
 
 .weixin {
-	width:500px;
-	height:300px;
-	display:none;
-	position:absolute;
-	z-index:2000;
-	opacity:0;
-	filter:alpha(opacity=0);
+    width: 500px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    z-index: 2000;
+    opacity: 0;
+    filter: alpha(opacity=0);
 }
+
 .screen {
-	display:none;
-	background:#000;
-	z-index:1000;
-	opacity:0;
-	filter:alpha(opacity=0);
-	position:fixed;
-	top:0;
+    display: none;
+    background: #000;
+    z-index: 1000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: fixed;
+    top: 0;
 }
 
 #banner {
-	width:1365px;
-	height:398px;
-	display:block;
-	position:relative;
-	margin:0 auto;
-	overflow:hidden;
+    width: 1365px;
+    height: 398px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
 }
+
 #banner img {
-	width:1365px;
-	position:absolute;
-	top:0;
-	left:1365px;
-	display:none;
+    width: 1365px;
+    position: absolute;
+    top: 0;
+    left: 1365px;
+    display: none;
 }
