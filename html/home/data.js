@@ -11,6 +11,17 @@ var data = {
       "desc": "这是一些业余时间做的PC端网站",
       "items": [
         {
+          "title": "后台管理系统",
+          "time": "2017-04-16",
+          "href": "https://beautifulboys.github.io/html/responsive/",
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a18.jpg",
+          "site": {
+            "official": "",
+            "model": "https://beautifulboys.github.io/html/responsive/"
+          },
+          "content": "来的不算晚，这是用Bootstrap做的一个响应式的后台管理系统。用了element-ui, echarts, baiduMap等，项目还在不定期完善和填充内容。"
+        },
+        {
           "title": "唯一视觉",
           "time": "2016-03-21",
           "href": "https://beautifulboys.github.io/html/weiyi/",
@@ -30,7 +41,7 @@ var data = {
             "official": "http://www.mi.com/",
             "model": "https://beautifulboys.github.io/html/xiaomi/"
           },
-          "content": "不知不觉，也辗转用了两部小米手机了。"
+          "content": "不知不觉，前前后后也用了三部小米手机和一个平板了，也渐渐从路人进化成了一个米粉，喜欢小米。"
         },
         {
           "title": "豆瓣电影",
