@@ -85,6 +85,13 @@ var data = {
       "desc": "移动端流式布局网站",
       "items": [
         {
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a19.png",
+          "imgma": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/code/responsive.png",
+          "title": "后台管理系统",
+          "time": "2017-04-18",
+          "content": "为上方PC端网站增加一个手机浏览入口。"
+        },
+        {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a13.jpg",
           "imgma": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/code/question.png",
           "title": "答题系统",
