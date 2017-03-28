@@ -14,7 +14,7 @@ var data = {
           "title": "后台管理系统",
           "time": "2017-04-16",
           "href": "https://beautifulboys.github.io/html/responsive/",
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a16.jpg",
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a16.png",
           "site": {
             "official": "",
             "model": "https://beautifulboys.github.io/html/responsive/"
