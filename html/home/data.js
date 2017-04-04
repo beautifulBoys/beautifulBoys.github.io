@@ -27,7 +27,7 @@ var data = {
           "href": "https://beautifulboys.github.io/html/weiyi/",
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a1.jpg",
           "site": {
-            "official": "http://www.onlyphoto.com/",
+            "official": "http://www.onlyphoto.net.cn/",
             "model": "https://beautifulboys.github.io/html/weiyi/"
           },
           "content": "这个网站是在大四时课余时间写的，算是正式工作之前写的最用心的一个网页了，当时彻底是被他的页面设计和页面效果给迷住了。"
