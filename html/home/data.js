@@ -19,7 +19,7 @@ var data = {
             "official": "",
             "model": "https://beautifulboys.github.io/html/responsive/"
           },
-          "content": "来的不算晚，这是用Bootstrap做的一个响应式的后台管理系统。用了element-ui, echarts, baiduMap等，项目还在不定期完善和填充内容。"
+          "content": "这个项目是用Bootstrap做的一个响应式的后台管理系统。用了element-ui, echarts, baiduMap等，项目还在不定期完善和填充内容。"
         },
         {
           "title": "唯一视觉",
@@ -30,7 +30,7 @@ var data = {
             "official": "http://www.onlyphoto.com/",
             "model": "https://beautifulboys.github.io/html/weiyi/"
           },
-          "content": "品出厂"
+          "content": "这个网站是在大四时课余时间写的，算是正式工作之前写的最用心的一个网页了，当时彻底是被他的页面设计和页面效果给迷住了。"
         },
         {
           "title": "小米网",
@@ -41,7 +41,7 @@ var data = {
             "official": "http://www.mi.com/",
             "model": "https://beautifulboys.github.io/html/xiaomi/"
           },
-          "content": "不知不觉，前前后后也用了三部小米手机和一个平板了，也渐渐从路人进化成了一个米粉，喜欢小米。"
+          "content": "不知不觉间，前前后后也用了三部小米手机和一个平板了，也渐渐从路人进化成了一个米粉，喜欢小米。"
         },
         {
           "title": "豆瓣电影",
@@ -52,7 +52,7 @@ var data = {
             "official": "https://movie.douban.com/",
             "model": "https://beautifulboys.github.io/html/douban/"
           },
-          "content": "一直都听说：豆瓣的网站很有设计感，无论是配色、排版还是风格都别具一格，是用心设计过的优秀作品。在此特意模仿一个，以提高自身的审美和编码能力。用PHP写后台，提供Ajax请求。（在此处模拟的假请求）"
+          "content": "一直都听说：豆瓣的网站很有设计感，无论是配色、排版还是风格都很别致，是用心设计过的优秀作品。在此特意模仿一个，以提高自身的审美和编码能力。用PHP写的简单后台接口，提供Ajax请求。（在此处php已剔除，模拟的假请求）"
         },
         {
           "title": "天猫登录",
@@ -63,7 +63,7 @@ var data = {
             "official": "http://login.tmall.com",
             "model": "https://beautifulboys.github.io/html/tmall/"
           },
-          "content": "偶然发现天猫登录页的登录块是用iframe嵌套的页面，与天猫全站弹出登录是共用的一个页面。为此特意模仿天猫登录页面。相似度95%以上。"
+          "content": "偶然发现天猫登录页的登录块是用iframe嵌套的页面，与天猫全站弹出登录是共用的一个页面。很好奇这种方式，为此特意模仿天猫登录页面。相似度95%以上。"
         },
         {
           "title": "沈阳化工大学",
@@ -74,7 +74,7 @@ var data = {
             "official": "http://www.syuct.edu.cn/",
             "model": "https://beautifulboys.github.io/html/huada/"
           },
-          "content": "由于学校的官网年久失修，板式老套，打算给做个改版，后来未能完成，实为憾事 ^ _ ^。采用php编写后台代码，在此PHP以剔除，只留下了html做展示。"
+          "content": "由于学校的官网年久失修，板式老套，打算给做个改版，后来未能完成，实为憾事 ^ _ ^。采用php编写后台代码，在此PHP已剔除，只留下了html做展示，共计6个页面。"
         }
       ]
     },
@@ -124,7 +124,7 @@ var data = {
           "imgma": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/code/baifubao.png",
           "title": "百付宝",
           "time": "2015-07-10",
-          "content": "此项目是根据百度钱包手机APP仿写。包含6个页面"
+          "content": "此项目是根据百度钱包手机APP仿写。包含6个页面：个人中心，账单，充值，亲密付，礼券，礼券单页。"
         }
       ]
     },
@@ -139,13 +139,6 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a9.jpg",
           "title": "酷炫时间",
           "time": "2017-02-20",
-          "content": "中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂价数据来看，三季度经中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂"
-        },
-        {
-          "href": "http://www.lixin5.top",
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a12.jpg",
-          "title": "图片放大",
-          "time": "2017-02-16",
           "content": "中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂价数据来看，三季度经中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂"
         }
       ]
@@ -222,7 +215,7 @@ var data = {
       "desc": "学习资料收藏夹",
       "items": [
         {
-          "href": "http://www.lixin5.top",
+          "href": "http://www.cnblogs.com/dushao/p/6004883.html",
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a5.jpg",
           "title": "JavaScript十大经典算法",
           "time": "2017-01-01",
@@ -233,14 +226,14 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a6.jpg",
           "title": "JavaScript经典闭包题",
           "time": "2017-01-01",
-          "content": ""
+          "content": "这是一道非常典型的JS闭包问题。其中嵌套了三层fun函数，搞清楚每层fun的函数是那个fun函数尤为重要。"
         },
         {
           "href": "http://blog.csdn.net/jeffhtlee/article/details/6830458",
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a7.jpg",
           "title": " Javascript的原型继承是如何工作的",
           "time": "2017-01-01",
-          "content": ""
+          "content": "到处可以看到Javascript是原型继承，但Javascript只提供了使用new关键字来实现原型继承，所以很多文章读后有诸多的疑问。这篇文章目的就是要说明Javascript的原型继承是如何工作的。"
         },
         {
           "href": "http://www.lixin5.top",
