@@ -171,11 +171,11 @@ var data = {
           "content": "这是模仿淘宝网商品详情页大图浏览的功能。"
         },
         {
-          "href": "http://www.lixin5.top",
+          "href": "https://beautifulboys.github.io/html/example/resume/",
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a15.jpg",
-          "title": "在线视频播放器",
-          "time": "2016-11-03",
-          "content": "中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂价数据来看，三季度经中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂"
+          "title": "个人简历",
+          "time": "2017-04-02",
+          "content": "李鑫_前端开发工程师，24岁，大学本科，一年工作经验。"
         }
       ]
     },
