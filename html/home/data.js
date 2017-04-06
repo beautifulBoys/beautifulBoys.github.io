@@ -241,6 +241,13 @@ var data = {
           "title": "JavaScript实现继承的方式",
           "time": "2017-01-01",
           "content": "主要介绍JavaScript实现继承的方式：类式继承、构造函数继承、组合继承、寄生组合式继承、extends继承"
+        },
+        {
+          "href": "http://ghmagical.com/article/page/id/UPLfoGI9vJ91",
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a12.jpg",
+          "title": "JS中的call、apply、bind方法",
+          "time": "2017-01-01",
+          "content": "在JavaScript中，call、apply和bind 是Function对象自带的三个方法，这三个方法的主要作用是改变函数中的this指向。"
         }
       ]
     }
