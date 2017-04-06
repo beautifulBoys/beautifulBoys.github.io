@@ -236,11 +236,11 @@ var data = {
           "content": "到处可以看到Javascript是原型继承，但Javascript只提供了使用new关键字来实现原型继承，所以很多文章读后有诸多的疑问。这篇文章目的就是要说明Javascript的原型继承是如何工作的。"
         },
         {
-          "href": "http://www.lixin5.top",
+          "href": "https://www.talkingcoder.com/article/6404070502094668332",
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a8.jpg",
-          "title": "国务委员王勇视察中农发集团中牧研究院",
-          "time": "2016-02-23",
-          "content": "中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂价数据来看，三季度经中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂"
+          "title": "JavaScript实现继承的方式",
+          "time": "2017-01-01",
+          "content": "主要介绍JavaScript实现继承的方式：类式继承、构造函数继承、组合继承、寄生组合式继承、extends继承"
         }
       ]
     }
