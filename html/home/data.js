@@ -248,6 +248,13 @@ var data = {
           "title": "JS中的call、apply、bind方法",
           "time": "2017-01-01",
           "content": "在JavaScript中，call、apply和bind 是Function对象自带的三个方法，这三个方法的主要作用是改变函数中的this指向。"
+        },
+        {
+          "href": "http://ghmagical.com/article/page/id/N7VY7Hg4TlgW",
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a13.jpg",
+          "title": "浅析JS模块规范：AMD和CMD",
+          "time": "2017-01-01",
+          "content": "简单的说，一个模块就是实现特定功能的文件，有了模块，我们就可以更方便地使用别人的代码，想要什么功能，就加载什么模块。当然，模块开发需要遵循一定的规范，否则各用各的就会乱套了。"
         }
       ]
     }
