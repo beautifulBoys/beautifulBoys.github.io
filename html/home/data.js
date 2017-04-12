@@ -14,7 +14,7 @@ var data = {
           "title": "后台管理系统",
           "time": "2017-04-16",
           "href": "https://beautifulboys.github.io/html/responsive/",
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a16.png",
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a16.jpg",
           "site": {
             "official": "",
             "model": "https://beautifulboys.github.io/html/responsive/"
@@ -85,7 +85,7 @@ var data = {
       "desc": "移动端流式布局网站",
       "items": [
         {
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a19.png",
+          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a19.jpg",
           "imgma": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/code/responsive.png",
           "title": "后台管理系统",
           "time": "2017-04-18",
