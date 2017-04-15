@@ -139,7 +139,7 @@ var data = {
           "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a9.jpg",
           "title": "酷炫时间",
           "time": "2017-02-20",
-          "content": "中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂价数据来看，三季度经中国经济三季报本周将出炉。从已经公布的外贸、物价和工业品出厂"
+          "content": "一个本地时间显示的小demo，特点是加了些canvas动画，时间改变的时候，五彩斑斓的小球在页面上坠落弹跳。。。"
         }
       ]
     },
