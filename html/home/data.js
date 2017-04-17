@@ -162,13 +162,6 @@ var data = {
           "title": "淘宝大图浏览",
           "time": "2016-03-26",
           "content": "这是模仿淘宝网商品详情页大图浏览的功能。"
-        },
-        {
-          "href": "https://beautifulboys.github.io/html/example/resume/",
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a15.jpg",
-          "title": "个人简历",
-          "time": "2017-04-02",
-          "content": "李鑫_前端开发工程师，24岁，大学本科，一年工作经验。熟练掌握Vue.js技术栈，能独立进行前端开发工作。为人真诚可靠，对工作认真负责，在一年的工作中得到全公司所有员工的一致认可。"
         }
       ]
     },
