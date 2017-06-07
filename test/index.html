@@ -15,6 +15,7 @@
    <button onclick="aaa()">关闭当前窗口</button>
    <script>
 	function aaa () {
+		WeixinJSBridge.call('closeWindow');
 		window.close();
 	}
    </script>
