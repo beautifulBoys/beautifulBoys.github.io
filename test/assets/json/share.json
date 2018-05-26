@@ -1,0 +1,12 @@
+{
+  "activityId": 750,
+  "type": 0,
+  "normaltem": {
+    "id": -1,
+    "name": "分享名称",
+    "title": "分享标题",
+    "url": "分享地址",
+    "content": "分享描述"
+  },
+  "specialList": []
+}
