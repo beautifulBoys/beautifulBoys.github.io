@@ -14,12 +14,23 @@ var data = {
           "title": "xinUI组件库",
           "time": "2020-07-10",
           "href": "",
-          "img": "/source/home/img/a19.jpg",
+          "img": "/source/home/img/a20.jpg",
           "site": {
             "official": "",
             "model": "https://lixin_boy.gitee.io/"
           },
           "content": "这是自我督促能力提升的KPI项目，共包含组件近40个；通过该项目掌握了不少相对底层和少见的JS方法，对自我提升还是非常有好处的。"
+        },
+        {
+          "title": "文章编辑器",
+          "time": "2019-12-09",
+          "href": "",
+          "img": "/source/home/img/a19.jpg",
+          "site": {
+            "official": "",
+            "model": "../pc/editor/index.html"
+          },
+          "content": "想实现一个文章编辑器，通过Electron打包成桌面应用。文章编辑目录以工程的形式存放项目，可以多开标签页和文件，更加方便使用。文件以加密的形式存放，还可以导出解密的工程及文件。内部所有功能以插件的形式实现，提供高拓展性。"
         },
         {
           "title": "旅游圈",
