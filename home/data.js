@@ -14,7 +14,7 @@ var data = {
           "title": "旅游圈",
           "time": "2017-12-10",
           "href": "",
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a18.jpg",
+          "img": "/source/home/img/a18.jpg",
           "site": {
             "official": "",
             "model": "../pc/tourism/web/index.html"
