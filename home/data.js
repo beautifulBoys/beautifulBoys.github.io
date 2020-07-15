@@ -17,7 +17,7 @@ var data = {
           "img": "/source/home/img/a19.jpg",
           "site": {
             "official": "",
-            "model": "../pc/xinUI/index.html"
+            "model": "https://lixin_boy.gitee.io/"
           },
           "content": "这是自我督促能力提升的KPI项目，共包含组件近40个；通过该项目掌握了不少相对底层和少见的JS方法，对自我提升还是非常有好处的。"
         },
