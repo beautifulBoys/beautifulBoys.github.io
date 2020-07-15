@@ -1,8 +1,8 @@
 ,
         {
           "href": "https://beautifulboys.github.io/html/example/resume/",
-          "img": "https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/home/img/a15.jpg",
-          "title": "个人简历",
+          "img": "/source/home/img/a15.jpg",
+          "title": "锟斤拷锟剿硷拷锟斤拷",
           "time": "2017-04-02",
-          "content": "李鑫_前端开发工程师，24岁，大学本科，一年工作经验。熟练掌握Vue.js技术栈，能独立进行前端开发工作。为人真诚可靠，对工作认真负责，在一年的工作中得到全公司所有员工的一致认可。"
+          "content": "锟斤拷锟斤拷_前锟剿匡拷锟斤拷锟斤拷锟斤拷师锟斤拷24锟疥，锟斤拷学锟斤拷锟狡ｏ拷一锟疥工锟斤拷锟斤拷锟介。锟斤拷锟斤拷锟斤拷锟斤拷Vue.js锟斤拷锟斤拷栈锟斤拷锟杰讹拷锟斤拷锟斤拷锟斤拷前锟剿匡拷锟斤拷锟斤拷锟斤拷锟斤拷为锟斤拷锟斤拷峡煽锟斤拷锟斤拷怨锟斤拷锟斤拷锟斤拷娓猴拷锟斤拷锟揭伙拷锟侥癸拷锟斤拷锟叫得碉拷全锟斤拷司锟斤拷锟斤拷员锟斤拷锟斤拷一锟斤拷锟较可★拷"
         }
