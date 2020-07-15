@@ -11,6 +11,17 @@ var data = {
       "desc": "这是一些业余时间做的PC端网站",
       "items": [
         {
+          "title": "xinUI组件库",
+          "time": "2020-07-10",
+          "href": "",
+          "img": "/source/home/img/a19.jpg",
+          "site": {
+            "official": "",
+            "model": "../pc/xinUI/index.html"
+          },
+          "content": "这是自我督促能力提升的KPI项目，共包含组件近40个；通过该项目掌握了不少相对底层和少见的JS方法，对自我提升还是非常有好处的。"
+        },
+        {
           "title": "旅游圈",
           "time": "2017-12-10",
           "href": "",
