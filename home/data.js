@@ -11,6 +11,17 @@ var data = {
       "desc": "这是一些业余时间做的PC端网站",
       "items": [
         {
+          "title": "页面及表单编辑器",
+          "time": "2020-07-10",
+          "href": "",
+          "img": "/source/home/img/a21.jpg",
+          "site": {
+            "official": "",
+            "model": "../pc/yida/index.html"
+          },
+          "content": "这是一个表单及网页可视化编辑器。"
+        },
+        {
           "title": "xinUI组件库",
           "time": "2020-07-10",
           "href": "",
