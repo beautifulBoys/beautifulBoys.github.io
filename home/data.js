@@ -17,7 +17,7 @@ var data = {
           "img": "/source/home/img/a21.jpg",
           "site": {
             "official": "",
-            "model": "../pc/yida/index.html"
+            "model": "../pc/yida/"
           },
           "content": "这是一个表单及网页可视化编辑器。"
         },
