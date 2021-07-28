@@ -224,6 +224,13 @@ var data = {
       "desc": "业余做的一些小例子",
       "items": [
         {
+          "href": "../example/css3/index.html",
+          "img": "/source/home/img/a23.jpg",
+          "title": "块动画",
+          "time": "2021-07-28",
+          "content": "CSS3 动画效果。"
+        },
+        {
           "href": "../example/bullet/index.html",
           "img": "/source/home/img/a13.jpg",
           "title": "弹幕系统",
