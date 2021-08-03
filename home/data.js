@@ -8,27 +8,38 @@ var data = {
       "id": "0",
       "text": "PC端网站",
       "english": "PC pages",
-      "desc": "这是一些业余时间做的PC端网站",
+      "desc": "这是一些业余时间做的PC端相关内容",
       "items": [
         {
-          "title": "轻流编辑器",
+          "title": "思维图编辑器",
+          "time": "2020-07-22",
+          "href": "",
+          "img": "/source/home/img/a23.jpg",
+          "site": {
+            "official": "",
+            "model": "../react/#/mind"
+          },
+          "content": "Html版本的思维图编辑器。"
+        },
+        {
+          "title": "轻流表单编辑器",
           "time": "2020-05-28",
           "href": "",
           "img": "/source/home/img/a22.jpg",
           "site": {
             "official": "https://www.qingflow.com/",
-            "model": "../pc/index/#/qingliu"
+            "model": "../react/#/qingliu"
           },
           "content": "仿轻流做的表单编辑器及流程编辑器。"
         },
         {
-          "title": "宜搭编辑器",
+          "title": "宜搭网页编辑器",
           "time": "2021-03-04",
           "href": "",
           "img": "/source/home/img/a21.jpg",
           "site": {
             "official": "https://www.aliwork.com/",
-            "model": "../pc/index/#/yida"
+            "model": "../react/#/yida"
           },
           "content": "仿宜搭做的网页可视化编辑器。"
         },
@@ -131,7 +142,8 @@ var data = {
           },
           "content": "偶然发现天猫登录页的登录块是用iframe嵌套的页面，与天猫全站弹出登录是共用的一个页面。很好奇这种方式，为此特意模仿天猫登录页面。相似度95%以上。"
         },
-        {
+        /*
+		{
           "title": "沈阳化工大学",
           "time": "2016-02-19",
           "href": "",
@@ -140,8 +152,9 @@ var data = {
             "official": "http://www.syuct.edu.cn/",
             "model": "../pc/huada/index.html"
           },
-          "content": "由于学校的官网年久失修，板式老套，打算给做个改版，后来未能完成，实为憾事 ^ _ ^。采用php编写后台代码，在此PHP已剔除，只留下了html做展示，共计6个页面。"
+          "content": "采用php编写后台代码，在此PHP已剔除，只留下了html做展示，共计6个页面。"
         }
+		*/
       ]
     },
     {
