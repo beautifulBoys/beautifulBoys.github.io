@@ -4471,7 +4471,7 @@ Vue.component('com-area', {
 });
 
 new Vue({
-  template: '\n<div id="app" style="display: flex;">\n  <div style="flex: 1; padding: 50px;">\n    <input type="text" @input="changeEvent" v-model="lixin.name"/>\n    <br /><br />\n    <span style="margin-right: 10px">\u6211\u6765\u81EA{{from}}</span>\n    <button @click="clickEvent">\u70B9\u51FB\u4E8B\u4EF6</button>\n    <ul class="ul">\n      <com-li></com-li>\n    </ul>\n    <com-area></com-area>\n  </div>\n  <div style="flex: 1;">\n    <img src="../static/images/code.png" style="width: 100%" />\n  </div>\n</div>',
+  template: '\n<div id="app" style="display: flex;">\n  <div style="flex: 1; padding: 50px;">\n    <input type="text" @input="changeEvent" v-model="lixin.name"/>\n    <br /><br />\n    <span style="margin-right: 10px">\u6211\u6765\u81EA{{from}}</span>\n    <button @click="clickEvent">\u70B9\u51FB\u4E8B\u4EF6</button>\n    <ul class="ul">\n      <com-li></com-li>\n    </ul>\n    <com-area></com-area>\n  </div>\n  <div style="flex: 1;">\n    <img src="./static/images/code.png" style="width: 100%" />\n  </div>\n</div>',
   data: function data() {
     return {
       from: '中国',
