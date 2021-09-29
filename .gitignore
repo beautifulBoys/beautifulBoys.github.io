@@ -2,6 +2,3 @@
 .github/
 node_modules/
 .vscode/
-.hbuilderx/
-unpackage/
-dist/

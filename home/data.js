@@ -131,19 +131,6 @@ var data = {
           },
           "content": "偶然发现天猫登录页的登录块是用iframe嵌套的页面，与天猫全站弹出登录是共用的一个页面。很好奇这种方式，为此特意模仿天猫登录页面。相似度95%以上。"
         },
-        /*
-		{
-          "title": "沈阳化工大学",
-          "time": "2016-02-19",
-          "href": "",
-          "img": "/source/home/img/a11.jpg",
-          "site": {
-            "official": "http://www.syuct.edu.cn/",
-            "model": "../pc/huada/index.html"
-          },
-          "content": "采用php编写后台代码，在此PHP已剔除，只留下了html做展示，共计6个页面。"
-        }
-		*/
       ]
     },
     {
