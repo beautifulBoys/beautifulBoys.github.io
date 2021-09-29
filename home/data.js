@@ -121,17 +121,6 @@ var data = {
           "content": "不知不觉间，前前后后也用了三部小米手机和一个平板了，也渐渐从路人进化成了一个米粉，喜欢小米。"
         },
         {
-          "title": "豆瓣电影",
-          "time": "2016-06-15",
-          "href": "",
-          "img": "/source/home/img/a3.jpg",
-          "site": {
-            "official": "https://movie.douban.com/",
-            "model": "../pc/douban/index.html"
-          },
-          "content": "一直都听说：豆瓣的网站很有设计感，无论是配色、排版还是风格都很别致，是用心设计过的优秀作品。在此特意模仿一个，以提高自身的审美和编码能力。用PHP写的简单后台接口，提供Ajax请求。（在此处php已剔除，模拟的假请求）"
-        },
-        {
           "title": "天猫登录",
           "time": "2016-07-03",
           "href": "",
